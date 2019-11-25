@@ -1,0 +1,2190 @@
+cuda
+DQN(
+  (conv): Sequential(
+    (0): Conv2d(4, 32, kernel_size=(8, 8), stride=(4, 4))
+    (1): ReLU()
+    (2): Conv2d(32, 64, kernel_size=(4, 4), stride=(2, 2))
+    (3): ReLU()
+    (4): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1))
+    (5): ReLU()
+  )
+  (fc): Sequential(
+    (0): Linear(in_features=3136, out_features=512, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=512, out_features=6, bias=True)
+  )
+)
+916: done 1 games, mean reward -21.000, eps 0.99, speed 689.41 f/s
+1707: done 2 games, mean reward -21.000, eps 0.98, speed 663.21 f/s
+2535: done 3 games, mean reward -21.000, eps 0.97, speed 689.05 f/s
+3375: done 4 games, mean reward -20.750, eps 0.97, speed 683.67 f/s
+Best mean reward updated -21.000 -> -20.750, model saved
+4332: done 5 games, mean reward -20.600, eps 0.96, speed 662.33 f/s
+Best mean reward updated -20.750 -> -20.600, model saved
+5303: done 6 games, mean reward -20.667, eps 0.95, speed 660.99 f/s
+6204: done 7 games, mean reward -20.714, eps 0.94, speed 666.29 f/s
+7203: done 8 games, mean reward -20.750, eps 0.93, speed 670.81 f/s
+8102: done 9 games, mean reward -20.667, eps 0.92, speed 657.78 f/s
+9038: done 10 games, mean reward -20.500, eps 0.91, speed 655.71 f/s
+Best mean reward updated -20.600 -> -20.500, model saved
+9920: done 11 games, mean reward -20.545, eps 0.90, speed 648.71 f/s
+11005: done 12 games, mean reward -20.417, eps 0.89, speed 107.22 f/s
+Best mean reward updated -20.500 -> -20.417, model saved
+11902: done 13 games, mean reward -20.385, eps 0.88, speed 99.68 f/s
+Best mean reward updated -20.417 -> -20.385, model saved
+12859: done 14 games, mean reward -20.357, eps 0.87, speed 100.22 f/s
+Best mean reward updated -20.385 -> -20.357, model saved
+13910: done 15 games, mean reward -20.267, eps 0.86, speed 99.46 f/s
+Best mean reward updated -20.357 -> -20.267, model saved
+14922: done 16 games, mean reward -20.188, eps 0.85, speed 100.25 f/s
+Best mean reward updated -20.267 -> -20.188, model saved
+15852: done 17 games, mean reward -20.176, eps 0.84, speed 99.65 f/s
+Best mean reward updated -20.188 -> -20.176, model saved
+16810: done 18 games, mean reward -20.222, eps 0.83, speed 99.14 f/s
+17600: done 19 games, mean reward -20.263, eps 0.82, speed 99.83 f/s
+18537: done 20 games, mean reward -20.200, eps 0.81, speed 99.76 f/s
+19359: done 21 games, mean reward -20.238, eps 0.81, speed 98.87 f/s
+20121: done 22 games, mean reward -20.273, eps 0.80, speed 98.52 f/s
+20949: done 23 games, mean reward -20.304, eps 0.79, speed 100.54 f/s
+21941: done 24 games, mean reward -20.292, eps 0.78, speed 99.14 f/s
+22880: done 25 games, mean reward -20.280, eps 0.77, speed 99.01 f/s
+23904: done 26 games, mean reward -20.231, eps 0.76, speed 99.75 f/s
+24954: done 27 games, mean reward -20.222, eps 0.75, speed 99.69 f/s
+26156: done 28 games, mean reward -20.214, eps 0.74, speed 98.02 f/s
+27007: done 29 games, mean reward -20.241, eps 0.73, speed 99.16 f/s
+28234: done 30 games, mean reward -20.233, eps 0.72, speed 97.41 f/s
+29299: done 31 games, mean reward -20.226, eps 0.71, speed 94.55 f/s
+30360: done 32 games, mean reward -20.250, eps 0.70, speed 98.96 f/s
+31141: done 33 games, mean reward -20.273, eps 0.69, speed 99.50 f/s
+32157: done 34 games, mean reward -20.265, eps 0.68, speed 98.70 f/s
+32979: done 35 games, mean reward -20.286, eps 0.67, speed 98.86 f/s
+33880: done 36 games, mean reward -20.278, eps 0.66, speed 98.21 f/s
+34799: done 37 games, mean reward -20.270, eps 0.65, speed 98.07 f/s
+35580: done 38 games, mean reward -20.289, eps 0.64, speed 97.50 f/s
+36572: done 39 games, mean reward -20.256, eps 0.63, speed 98.61 f/s
+37628: done 40 games, mean reward -20.225, eps 0.62, speed 98.09 f/s
+38658: done 41 games, mean reward -20.244, eps 0.61, speed 98.47 f/s
+39764: done 42 games, mean reward -20.238, eps 0.60, speed 97.97 f/s
+40676: done 43 games, mean reward -20.256, eps 0.59, speed 97.89 f/s
+41638: done 44 games, mean reward -20.250, eps 0.58, speed 97.85 f/s
+42628: done 45 games, mean reward -20.244, eps 0.57, speed 98.15 f/s
+43448: done 46 games, mean reward -20.261, eps 0.57, speed 96.80 f/s
+44411: done 47 games, mean reward -20.255, eps 0.56, speed 98.39 f/s
+45293: done 48 games, mean reward -20.271, eps 0.55, speed 97.70 f/s
+46115: done 49 games, mean reward -20.286, eps 0.54, speed 97.70 f/s
+47013: done 50 games, mean reward -20.300, eps 0.53, speed 97.75 f/s
+47893: done 51 games, mean reward -20.314, eps 0.52, speed 98.11 f/s
+49003: done 52 games, mean reward -20.308, eps 0.51, speed 97.82 f/s
+49872: done 53 games, mean reward -20.321, eps 0.50, speed 96.76 f/s
+50826: done 54 games, mean reward -20.315, eps 0.49, speed 97.39 f/s
+51891: done 55 games, mean reward -20.309, eps 0.48, speed 97.00 f/s
+52887: done 56 games, mean reward -20.321, eps 0.47, speed 97.45 f/s
+53816: done 57 games, mean reward -20.316, eps 0.46, speed 97.75 f/s
+54795: done 58 games, mean reward -20.310, eps 0.45, speed 97.30 f/s
+55902: done 59 games, mean reward -20.322, eps 0.44, speed 96.85 f/s
+56849: done 60 games, mean reward -20.317, eps 0.43, speed 97.21 f/s
+57940: done 61 games, mean reward -20.311, eps 0.42, speed 95.69 f/s
+58940: done 62 games, mean reward -20.323, eps 0.41, speed 94.80 f/s
+59871: done 63 games, mean reward -20.333, eps 0.40, speed 93.82 f/s
+60842: done 64 games, mean reward -20.344, eps 0.39, speed 96.70 f/s
+61835: done 65 games, mean reward -20.338, eps 0.38, speed 96.93 f/s
+62918: done 66 games, mean reward -20.318, eps 0.37, speed 96.83 f/s
+63946: done 67 games, mean reward -20.299, eps 0.36, speed 96.94 f/s
+64862: done 68 games, mean reward -20.294, eps 0.35, speed 96.54 f/s
+65684: done 69 games, mean reward -20.304, eps 0.34, speed 96.47 f/s
+66697: done 70 games, mean reward -20.286, eps 0.33, speed 95.64 f/s
+67639: done 71 games, mean reward -20.296, eps 0.32, speed 96.66 f/s
+68586: done 72 games, mean reward -20.278, eps 0.31, speed 96.59 f/s
+69958: done 73 games, mean reward -20.260, eps 0.30, speed 96.75 f/s
+70932: done 74 games, mean reward -20.257, eps 0.29, speed 96.31 f/s
+72088: done 75 games, mean reward -20.240, eps 0.28, speed 96.17 f/s
+73028: done 76 games, mean reward -20.250, eps 0.27, speed 96.09 f/s
+73940: done 77 games, mean reward -20.260, eps 0.26, speed 96.66 f/s
+75148: done 78 games, mean reward -20.256, eps 0.25, speed 95.57 f/s
+76498: done 79 games, mean reward -20.253, eps 0.24, speed 96.50 f/s
+77745: done 80 games, mean reward -20.250, eps 0.22, speed 95.90 f/s
+78674: done 81 games, mean reward -20.259, eps 0.21, speed 95.81 f/s
+79933: done 82 games, mean reward -20.256, eps 0.20, speed 96.22 f/s
+81054: done 83 games, mean reward -20.241, eps 0.19, speed 95.96 f/s
+82630: done 84 games, mean reward -20.202, eps 0.17, speed 95.19 f/s
+83988: done 85 games, mean reward -20.188, eps 0.16, speed 95.39 f/s
+85665: done 86 games, mean reward -20.163, eps 0.14, speed 95.63 f/s
+Best mean reward updated -20.176 -> -20.163, model saved
+87569: done 87 games, mean reward -20.126, eps 0.12, speed 94.44 f/s
+Best mean reward updated -20.163 -> -20.126, model saved
+89143: done 88 games, mean reward -20.091, eps 0.11, speed 92.93 f/s
+Best mean reward updated -20.126 -> -20.091, model saved
+90545: done 89 games, mean reward -20.067, eps 0.09, speed 93.80 f/s
+Best mean reward updated -20.091 -> -20.067, model saved
+92251: done 90 games, mean reward -20.022, eps 0.08, speed 94.89 f/s
+Best mean reward updated -20.067 -> -20.022, model saved
+93599: done 91 games, mean reward -20.011, eps 0.06, speed 94.79 f/s
+Best mean reward updated -20.022 -> -20.011, model saved
+95486: done 92 games, mean reward -19.989, eps 0.05, speed 94.50 f/s
+Best mean reward updated -20.011 -> -19.989, model saved
+97006: done 93 games, mean reward -19.978, eps 0.03, speed 94.69 f/s
+Best mean reward updated -19.989 -> -19.978, model saved
+98768: done 94 games, mean reward -19.957, eps 0.02, speed 94.62 f/s
+Best mean reward updated -19.978 -> -19.957, model saved
+101049: done 95 games, mean reward -19.895, eps 0.02, speed 95.02 f/s
+Best mean reward updated -19.957 -> -19.895, model saved
+102539: done 96 games, mean reward -19.885, eps 0.02, speed 94.92 f/s
+Best mean reward updated -19.895 -> -19.885, model saved
+104349: done 97 games, mean reward -19.856, eps 0.02, speed 94.55 f/s
+Best mean reward updated -19.885 -> -19.856, model saved
+105818: done 98 games, mean reward -19.857, eps 0.02, speed 94.31 f/s
+107643: done 99 games, mean reward -19.828, eps 0.02, speed 94.84 f/s
+Best mean reward updated -19.856 -> -19.828, model saved
+109667: done 100 games, mean reward -19.790, eps 0.02, speed 94.99 f/s
+Best mean reward updated -19.828 -> -19.790, model saved
+111719: done 101 games, mean reward -19.770, eps 0.02, speed 94.68 f/s
+Best mean reward updated -19.790 -> -19.770, model saved
+114297: done 102 games, mean reward -19.730, eps 0.02, speed 94.60 f/s
+Best mean reward updated -19.770 -> -19.730, model saved
+116846: done 103 games, mean reward -19.700, eps 0.02, speed 94.30 f/s
+Best mean reward updated -19.730 -> -19.700, model saved
+118817: done 104 games, mean reward -19.670, eps 0.02, speed 92.74 f/s
+Best mean reward updated -19.700 -> -19.670, model saved
+120762: done 105 games, mean reward -19.640, eps 0.02, speed 94.20 f/s
+Best mean reward updated -19.670 -> -19.640, model saved
+122802: done 106 games, mean reward -19.570, eps 0.02, speed 94.79 f/s
+Best mean reward updated -19.640 -> -19.570, model saved
+125056: done 107 games, mean reward -19.530, eps 0.02, speed 94.69 f/s
+Best mean reward updated -19.570 -> -19.530, model saved
+127276: done 108 games, mean reward -19.500, eps 0.02, speed 94.65 f/s
+Best mean reward updated -19.530 -> -19.500, model saved
+129693: done 109 games, mean reward -19.460, eps 0.02, speed 94.39 f/s
+Best mean reward updated -19.500 -> -19.460, model saved
+132609: done 110 games, mean reward -19.380, eps 0.02, speed 95.08 f/s
+Best mean reward updated -19.460 -> -19.380, model saved
+135625: done 111 games, mean reward -19.330, eps 0.02, speed 94.40 f/s
+Best mean reward updated -19.380 -> -19.330, model saved
+138503: done 112 games, mean reward -19.290, eps 0.02, speed 95.18 f/s
+Best mean reward updated -19.330 -> -19.290, model saved
+140861: done 113 games, mean reward -19.270, eps 0.02, speed 94.84 f/s
+Best mean reward updated -19.290 -> -19.270, model saved
+143439: done 114 games, mean reward -19.220, eps 0.02, speed 90.62 f/s
+Best mean reward updated -19.270 -> -19.220, model saved
+146063: done 115 games, mean reward -19.210, eps 0.02, speed 88.50 f/s
+Best mean reward updated -19.220 -> -19.210, model saved
+148255: done 116 games, mean reward -19.200, eps 0.02, speed 88.89 f/s
+Best mean reward updated -19.210 -> -19.200, model saved
+150690: done 117 games, mean reward -19.190, eps 0.02, speed 93.80 f/s
+Best mean reward updated -19.200 -> -19.190, model saved
+153048: done 118 games, mean reward -19.140, eps 0.02, speed 94.87 f/s
+Best mean reward updated -19.190 -> -19.140, model saved
+155677: done 119 games, mean reward -19.080, eps 0.02, speed 94.82 f/s
+Best mean reward updated -19.140 -> -19.080, model saved
+158082: done 120 games, mean reward -19.060, eps 0.02, speed 94.17 f/s
+Best mean reward updated -19.080 -> -19.060, model saved
+160436: done 121 games, mean reward -19.020, eps 0.02, speed 94.77 f/s
+Best mean reward updated -19.060 -> -19.020, model saved
+162675: done 122 games, mean reward -19.010, eps 0.02, speed 95.12 f/s
+Best mean reward updated -19.020 -> -19.010, model saved
+165383: done 123 games, mean reward -18.980, eps 0.02, speed 94.54 f/s
+Best mean reward updated -19.010 -> -18.980, model saved
+167772: done 124 games, mean reward -18.950, eps 0.02, speed 92.88 f/s
+Best mean reward updated -18.980 -> -18.950, model saved
+170453: done 125 games, mean reward -18.890, eps 0.02, speed 91.24 f/s
+Best mean reward updated -18.950 -> -18.890, model saved
+173448: done 126 games, mean reward -18.840, eps 0.02, speed 88.97 f/s
+Best mean reward updated -18.890 -> -18.840, model saved
+176259: done 127 games, mean reward -18.800, eps 0.02, speed 90.83 f/s
+Best mean reward updated -18.840 -> -18.800, model saved
+179181: done 128 games, mean reward -18.760, eps 0.02, speed 90.33 f/s
+Best mean reward updated -18.800 -> -18.760, model saved
+182246: done 129 games, mean reward -18.720, eps 0.02, speed 90.30 f/s
+Best mean reward updated -18.760 -> -18.720, model saved
+184664: done 130 games, mean reward -18.680, eps 0.02, speed 93.65 f/s
+Best mean reward updated -18.720 -> -18.680, model saved
+187451: done 131 games, mean reward -18.640, eps 0.02, speed 93.91 f/s
+Best mean reward updated -18.680 -> -18.640, model saved
+190407: done 132 games, mean reward -18.570, eps 0.02, speed 94.52 f/s
+Best mean reward updated -18.640 -> -18.570, model saved
+193119: done 133 games, mean reward -18.520, eps 0.02, speed 94.41 f/s
+Best mean reward updated -18.570 -> -18.520, model saved
+196300: done 134 games, mean reward -18.470, eps 0.02, speed 94.04 f/s
+Best mean reward updated -18.520 -> -18.470, model saved
+199139: done 135 games, mean reward -18.380, eps 0.02, speed 94.72 f/s
+Best mean reward updated -18.470 -> -18.380, model saved
+202083: done 136 games, mean reward -18.350, eps 0.02, speed 93.95 f/s
+Best mean reward updated -18.380 -> -18.350, model saved
+204510: done 137 games, mean reward -18.300, eps 0.02, speed 94.24 f/s
+Best mean reward updated -18.350 -> -18.300, model saved
+207489: done 138 games, mean reward -18.250, eps 0.02, speed 93.13 f/s
+Best mean reward updated -18.300 -> -18.250, model saved
+209758: done 139 games, mean reward -18.250, eps 0.02, speed 94.36 f/s
+213013: done 140 games, mean reward -18.180, eps 0.02, speed 94.37 f/s
+Best mean reward updated -18.250 -> -18.180, model saved
+216130: done 141 games, mean reward -18.080, eps 0.02, speed 94.59 f/s
+Best mean reward updated -18.180 -> -18.080, model saved
+219191: done 142 games, mean reward -18.020, eps 0.02, speed 93.85 f/s
+Best mean reward updated -18.080 -> -18.020, model saved
+221451: done 143 games, mean reward -17.990, eps 0.02, speed 94.79 f/s
+Best mean reward updated -18.020 -> -17.990, model saved
+224794: done 144 games, mean reward -17.860, eps 0.02, speed 94.60 f/s
+Best mean reward updated -17.990 -> -17.860, model saved
+227503: done 145 games, mean reward -17.810, eps 0.02, speed 94.36 f/s
+Best mean reward updated -17.860 -> -17.810, model saved
+230265: done 146 games, mean reward -17.740, eps 0.02, speed 93.71 f/s
+Best mean reward updated -17.810 -> -17.740, model saved
+233432: done 147 games, mean reward -17.590, eps 0.02, speed 94.11 f/s
+Best mean reward updated -17.740 -> -17.590, model saved
+236219: done 148 games, mean reward -17.530, eps 0.02, speed 93.22 f/s
+Best mean reward updated -17.590 -> -17.530, model saved
+239855: done 149 games, mean reward -17.370, eps 0.02, speed 94.85 f/s
+Best mean reward updated -17.530 -> -17.370, model saved
+242182: done 150 games, mean reward -17.340, eps 0.02, speed 94.16 f/s
+Best mean reward updated -17.370 -> -17.340, model saved
+244888: done 151 games, mean reward -17.260, eps 0.02, speed 94.74 f/s
+Best mean reward updated -17.340 -> -17.260, model saved
+247728: done 152 games, mean reward -17.150, eps 0.02, speed 94.23 f/s
+Best mean reward updated -17.260 -> -17.150, model saved
+249768: done 153 games, mean reward -17.100, eps 0.02, speed 94.38 f/s
+Best mean reward updated -17.150 -> -17.100, model saved
+252274: done 154 games, mean reward -17.050, eps 0.02, speed 94.47 f/s
+Best mean reward updated -17.100 -> -17.050, model saved
+254655: done 155 games, mean reward -16.990, eps 0.02, speed 94.56 f/s
+Best mean reward updated -17.050 -> -16.990, model saved
+256881: done 156 games, mean reward -16.940, eps 0.02, speed 93.92 f/s
+Best mean reward updated -16.990 -> -16.940, model saved
+259937: done 157 games, mean reward -16.800, eps 0.02, speed 94.19 f/s
+Best mean reward updated -16.940 -> -16.800, model saved
+262762: done 158 games, mean reward -16.700, eps 0.02, speed 94.70 f/s
+Best mean reward updated -16.800 -> -16.700, model saved
+265159: done 159 games, mean reward -16.620, eps 0.02, speed 92.88 f/s
+Best mean reward updated -16.700 -> -16.620, model saved
+267550: done 160 games, mean reward -16.580, eps 0.02, speed 95.08 f/s
+Best mean reward updated -16.620 -> -16.580, model saved
+269993: done 161 games, mean reward -16.510, eps 0.02, speed 95.07 f/s
+Best mean reward updated -16.580 -> -16.510, model saved
+272339: done 162 games, mean reward -16.460, eps 0.02, speed 94.48 f/s
+Best mean reward updated -16.510 -> -16.460, model saved
+274298: done 163 games, mean reward -16.430, eps 0.02, speed 94.94 f/s
+Best mean reward updated -16.460 -> -16.430, model saved
+276664: done 164 games, mean reward -16.380, eps 0.02, speed 94.83 f/s
+Best mean reward updated -16.430 -> -16.380, model saved
+279547: done 165 games, mean reward -16.300, eps 0.02, speed 94.69 f/s
+Best mean reward updated -16.380 -> -16.300, model saved
+281978: done 166 games, mean reward -16.270, eps 0.02, speed 94.85 f/s
+Best mean reward updated -16.300 -> -16.270, model saved
+285004: done 167 games, mean reward -16.170, eps 0.02, speed 94.99 f/s
+Best mean reward updated -16.270 -> -16.170, model saved
+289075: done 168 games, mean reward -16.000, eps 0.02, speed 94.32 f/s
+Best mean reward updated -16.170 -> -16.000, model saved
+292471: done 169 games, mean reward -15.850, eps 0.02, speed 95.00 f/s
+Best mean reward updated -16.000 -> -15.850, model saved
+295676: done 170 games, mean reward -15.600, eps 0.02, speed 93.40 f/s
+Best mean reward updated -15.850 -> -15.600, model saved
+298401: done 171 games, mean reward -15.490, eps 0.02, speed 94.93 f/s
+Best mean reward updated -15.600 -> -15.490, model saved
+301018: done 172 games, mean reward -15.420, eps 0.02, speed 94.80 f/s
+Best mean reward updated -15.490 -> -15.420, model saved
+303726: done 173 games, mean reward -15.340, eps 0.02, speed 94.91 f/s
+Best mean reward updated -15.420 -> -15.340, model saved
+306209: done 174 games, mean reward -15.280, eps 0.02, speed 95.02 f/s
+Best mean reward updated -15.340 -> -15.280, model saved
+309014: done 175 games, mean reward -15.230, eps 0.02, speed 94.65 f/s
+Best mean reward updated -15.280 -> -15.230, model saved
+312182: done 176 games, mean reward -15.100, eps 0.02, speed 94.69 f/s
+Best mean reward updated -15.230 -> -15.100, model saved
+315461: done 177 games, mean reward -14.970, eps 0.02, speed 94.83 f/s
+Best mean reward updated -15.100 -> -14.970, model saved
+317471: done 178 games, mean reward -14.920, eps 0.02, speed 94.11 f/s
+Best mean reward updated -14.970 -> -14.920, model saved
+320284: done 179 games, mean reward -14.850, eps 0.02, speed 95.04 f/s
+Best mean reward updated -14.920 -> -14.850, model saved
+322481: done 180 games, mean reward -14.790, eps 0.02, speed 93.74 f/s
+Best mean reward updated -14.850 -> -14.790, model saved
+324460: done 181 games, mean reward -14.740, eps 0.02, speed 93.63 f/s
+Best mean reward updated -14.790 -> -14.740, model saved
+326780: done 182 games, mean reward -14.670, eps 0.02, speed 94.86 f/s
+Best mean reward updated -14.740 -> -14.670, model saved
+330346: done 183 games, mean reward -14.490, eps 0.02, speed 94.80 f/s
+Best mean reward updated -14.670 -> -14.490, model saved
+332872: done 184 games, mean reward -14.420, eps 0.02, speed 94.49 f/s
+Best mean reward updated -14.490 -> -14.420, model saved
+335572: done 185 games, mean reward -14.340, eps 0.02, speed 94.88 f/s
+Best mean reward updated -14.420 -> -14.340, model saved
+338765: done 186 games, mean reward -14.200, eps 0.02, speed 95.06 f/s
+Best mean reward updated -14.340 -> -14.200, model saved
+341764: done 187 games, mean reward -13.960, eps 0.02, speed 94.91 f/s
+Best mean reward updated -14.200 -> -13.960, model saved
+344692: done 188 games, mean reward -13.850, eps 0.02, speed 95.08 f/s
+Best mean reward updated -13.960 -> -13.850, model saved
+348244: done 189 games, mean reward -13.720, eps 0.02, speed 94.46 f/s
+Best mean reward updated -13.850 -> -13.720, model saved
+351737: done 190 games, mean reward -13.530, eps 0.02, speed 94.06 f/s
+Best mean reward updated -13.720 -> -13.530, model saved
+354472: done 191 games, mean reward -13.440, eps 0.02, speed 94.15 f/s
+Best mean reward updated -13.530 -> -13.440, model saved
+357860: done 192 games, mean reward -13.250, eps 0.02, speed 90.25 f/s
+Best mean reward updated -13.440 -> -13.250, model saved
+360786: done 193 games, mean reward -12.980, eps 0.02, speed 90.15 f/s
+Best mean reward updated -13.250 -> -12.980, model saved
+363651: done 194 games, mean reward -12.880, eps 0.02, speed 92.13 f/s
+Best mean reward updated -12.980 -> -12.880, model saved
+366695: done 195 games, mean reward -12.830, eps 0.02, speed 94.93 f/s
+Best mean reward updated -12.880 -> -12.830, model saved
+369295: done 196 games, mean reward -12.750, eps 0.02, speed 94.85 f/s
+Best mean reward updated -12.830 -> -12.750, model saved
+371398: done 197 games, mean reward -12.720, eps 0.02, speed 94.78 f/s
+Best mean reward updated -12.750 -> -12.720, model saved
+374110: done 198 games, mean reward -12.630, eps 0.02, speed 94.75 f/s
+Best mean reward updated -12.720 -> -12.630, model saved
+376476: done 199 games, mean reward -12.600, eps 0.02, speed 94.91 f/s
+Best mean reward updated -12.630 -> -12.600, model saved
+379171: done 200 games, mean reward -12.540, eps 0.02, speed 94.85 f/s
+Best mean reward updated -12.600 -> -12.540, model saved
+381065: done 201 games, mean reward -12.540, eps 0.02, speed 93.67 f/s
+382913: done 202 games, mean reward -12.560, eps 0.02, speed 95.09 f/s
+385716: done 203 games, mean reward -12.470, eps 0.02, speed 95.00 f/s
+Best mean reward updated -12.540 -> -12.470, model saved
+388484: done 204 games, mean reward -12.400, eps 0.02, speed 95.27 f/s
+Best mean reward updated -12.470 -> -12.400, model saved
+391725: done 205 games, mean reward -12.340, eps 0.02, speed 95.01 f/s
+Best mean reward updated -12.400 -> -12.340, model saved
+394002: done 206 games, mean reward -12.330, eps 0.02, speed 94.78 f/s
+Best mean reward updated -12.340 -> -12.330, model saved
+396496: done 207 games, mean reward -12.320, eps 0.02, speed 95.56 f/s
+Best mean reward updated -12.330 -> -12.320, model saved
+399202: done 208 games, mean reward -12.200, eps 0.02, speed 95.51 f/s
+Best mean reward updated -12.320 -> -12.200, model saved
+402538: done 209 games, mean reward -12.050, eps 0.02, speed 94.65 f/s
+Best mean reward updated -12.200 -> -12.050, model saved
+405521: done 210 games, mean reward -12.010, eps 0.02, speed 95.16 f/s
+Best mean reward updated -12.050 -> -12.010, model saved
+408038: done 211 games, mean reward -11.970, eps 0.02, speed 94.96 f/s
+Best mean reward updated -12.010 -> -11.970, model saved
+410453: done 212 games, mean reward -11.960, eps 0.02, speed 94.19 f/s
+Best mean reward updated -11.970 -> -11.960, model saved
+413848: done 213 games, mean reward -11.860, eps 0.02, speed 94.80 f/s
+Best mean reward updated -11.960 -> -11.860, model saved
+417120: done 214 games, mean reward -11.760, eps 0.02, speed 95.05 f/s
+Best mean reward updated -11.860 -> -11.760, model saved
+419675: done 215 games, mean reward -11.690, eps 0.02, speed 95.16 f/s
+Best mean reward updated -11.760 -> -11.690, model saved
+422931: done 216 games, mean reward -11.580, eps 0.02, speed 95.12 f/s
+Best mean reward updated -11.690 -> -11.580, model saved
+424890: done 217 games, mean reward -11.550, eps 0.02, speed 95.57 f/s
+Best mean reward updated -11.580 -> -11.550, model saved
+427714: done 218 games, mean reward -11.510, eps 0.02, speed 95.66 f/s
+Best mean reward updated -11.550 -> -11.510, model saved
+430006: done 219 games, mean reward -11.530, eps 0.02, speed 95.04 f/s
+433503: done 220 games, mean reward -11.350, eps 0.02, speed 95.15 f/s
+Best mean reward updated -11.510 -> -11.350, model saved
+436252: done 221 games, mean reward -11.280, eps 0.02, speed 95.32 f/s
+Best mean reward updated -11.350 -> -11.280, model saved
+440103: done 222 games, mean reward -11.130, eps 0.02, speed 94.58 f/s
+Best mean reward updated -11.280 -> -11.130, model saved
+441926: done 223 games, mean reward -11.140, eps 0.02, speed 94.83 f/s
+444965: done 224 games, mean reward -11.040, eps 0.02, speed 95.53 f/s
+Best mean reward updated -11.130 -> -11.040, model saved
+448090: done 225 games, mean reward -10.940, eps 0.02, speed 95.03 f/s
+Best mean reward updated -11.040 -> -10.940, model saved
+449751: done 226 games, mean reward -11.000, eps 0.02, speed 95.23 f/s
+452958: done 227 games, mean reward -10.870, eps 0.02, speed 95.59 f/s
+Best mean reward updated -10.940 -> -10.870, model saved
+455648: done 228 games, mean reward -10.790, eps 0.02, speed 95.14 f/s
+Best mean reward updated -10.870 -> -10.790, model saved
+459227: done 229 games, mean reward -10.650, eps 0.02, speed 95.67 f/s
+Best mean reward updated -10.790 -> -10.650, model saved
+462877: done 230 games, mean reward -10.540, eps 0.02, speed 94.90 f/s
+Best mean reward updated -10.650 -> -10.540, model saved
+465985: done 231 games, mean reward -10.450, eps 0.02, speed 95.51 f/s
+Best mean reward updated -10.540 -> -10.450, model saved
+469414: done 232 games, mean reward -10.320, eps 0.02, speed 94.54 f/s
+Best mean reward updated -10.450 -> -10.320, model saved
+473174: done 233 games, mean reward -10.140, eps 0.02, speed 95.31 f/s
+Best mean reward updated -10.320 -> -10.140, model saved
+476728: done 234 games, mean reward -9.970, eps 0.02, speed 95.02 f/s
+Best mean reward updated -10.140 -> -9.970, model saved
+479665: done 235 games, mean reward -9.790, eps 0.02, speed 93.55 f/s
+Best mean reward updated -9.970 -> -9.790, model saved
+482199: done 236 games, mean reward -9.500, eps 0.02, speed 91.19 f/s
+Best mean reward updated -9.790 -> -9.500, model saved
+484231: done 237 games, mean reward -9.190, eps 0.02, speed 91.30 f/s
+Best mean reward updated -9.500 -> -9.190, model saved
+487712: done 238 games, mean reward -8.990, eps 0.02, speed 93.17 f/s
+Best mean reward updated -9.190 -> -8.990, model saved
+490168: done 239 games, mean reward -8.670, eps 0.02, speed 93.21 f/s
+Best mean reward updated -8.990 -> -8.670, model saved
+493268: done 240 games, mean reward -8.520, eps 0.02, speed 92.09 f/s
+Best mean reward updated -8.670 -> -8.520, model saved
+496513: done 241 games, mean reward -8.440, eps 0.02, speed 91.99 f/s
+Best mean reward updated -8.520 -> -8.440, model saved
+498415: done 242 games, mean reward -8.450, eps 0.02, speed 91.89 f/s
+500872: done 243 games, mean reward -8.150, eps 0.02, speed 94.81 f/s
+Best mean reward updated -8.440 -> -8.150, model saved
+503055: done 244 games, mean reward -8.190, eps 0.02, speed 94.33 f/s
+505305: done 245 games, mean reward -8.160, eps 0.02, speed 91.74 f/s
+508380: done 246 games, mean reward -8.050, eps 0.02, speed 91.97 f/s
+Best mean reward updated -8.150 -> -8.050, model saved
+510900: done 247 games, mean reward -7.860, eps 0.02, speed 91.30 f/s
+Best mean reward updated -8.050 -> -7.860, model saved
+513653: done 248 games, mean reward -7.660, eps 0.02, speed 92.38 f/s
+Best mean reward updated -7.860 -> -7.660, model saved
+516055: done 249 games, mean reward -7.720, eps 0.02, speed 92.89 f/s
+518755: done 250 games, mean reward -7.440, eps 0.02, speed 89.93 f/s
+Best mean reward updated -7.660 -> -7.440, model saved
+521313: done 251 games, mean reward -7.200, eps 0.02, speed 91.09 f/s
+Best mean reward updated -7.440 -> -7.200, model saved
+523485: done 252 games, mean reward -7.250, eps 0.02, speed 94.57 f/s
+526051: done 253 games, mean reward -6.960, eps 0.02, speed 95.04 f/s
+Best mean reward updated -7.200 -> -6.960, model saved
+529329: done 254 games, mean reward -6.780, eps 0.02, speed 94.05 f/s
+Best mean reward updated -6.960 -> -6.780, model saved
+532295: done 255 games, mean reward -6.570, eps 0.02, speed 95.26 f/s
+Best mean reward updated -6.780 -> -6.570, model saved
+535163: done 256 games, mean reward -6.310, eps 0.02, speed 95.45 f/s
+Best mean reward updated -6.570 -> -6.310, model saved
+537612: done 257 games, mean reward -6.130, eps 0.02, speed 94.90 f/s
+Best mean reward updated -6.310 -> -6.130, model saved
+540110: done 258 games, mean reward -5.910, eps 0.02, speed 95.40 f/s
+Best mean reward updated -6.130 -> -5.910, model saved
+543359: done 259 games, mean reward -5.700, eps 0.02, speed 95.17 f/s
+Best mean reward updated -5.910 -> -5.700, model saved
+545170: done 260 games, mean reward -5.360, eps 0.02, speed 95.28 f/s
+Best mean reward updated -5.700 -> -5.360, model saved
+547186: done 261 games, mean reward -5.060, eps 0.02, speed 94.56 f/s
+Best mean reward updated -5.360 -> -5.060, model saved
+549442: done 262 games, mean reward -4.750, eps 0.02, speed 95.32 f/s
+Best mean reward updated -5.060 -> -4.750, model saved
+551545: done 263 games, mean reward -4.690, eps 0.02, speed 95.65 f/s
+Best mean reward updated -4.750 -> -4.690, model saved
+554541: done 264 games, mean reward -4.450, eps 0.02, speed 94.56 f/s
+Best mean reward updated -4.690 -> -4.450, model saved
+556925: done 265 games, mean reward -4.200, eps 0.02, speed 94.54 f/s
+Best mean reward updated -4.450 -> -4.200, model saved
+560223: done 266 games, mean reward -3.990, eps 0.02, speed 95.39 f/s
+Best mean reward updated -4.200 -> -3.990, model saved
+562564: done 267 games, mean reward -3.750, eps 0.02, speed 95.96 f/s
+Best mean reward updated -3.990 -> -3.750, model saved
+564344: done 268 games, mean reward -3.530, eps 0.02, speed 95.56 f/s
+Best mean reward updated -3.750 -> -3.530, model saved
+566315: done 269 games, mean reward -3.330, eps 0.02, speed 95.29 f/s
+Best mean reward updated -3.530 -> -3.330, model saved
+568482: done 270 games, mean reward -3.250, eps 0.02, speed 95.57 f/s
+Best mean reward updated -3.330 -> -3.250, model saved
+570340: done 271 games, mean reward -2.970, eps 0.02, speed 95.59 f/s
+Best mean reward updated -3.250 -> -2.970, model saved
+572281: done 272 games, mean reward -2.700, eps 0.02, speed 87.99 f/s
+Best mean reward updated -2.970 -> -2.700, model saved
+574910: done 273 games, mean reward -2.520, eps 0.02, speed 90.30 f/s
+Best mean reward updated -2.700 -> -2.520, model saved
+576995: done 274 games, mean reward -2.200, eps 0.02, speed 93.07 f/s
+Best mean reward updated -2.520 -> -2.200, model saved
+579127: done 275 games, mean reward -1.930, eps 0.02, speed 95.53 f/s
+Best mean reward updated -2.200 -> -1.930, model saved
+581279: done 276 games, mean reward -1.700, eps 0.02, speed 95.35 f/s
+Best mean reward updated -1.930 -> -1.700, model saved
+584089: done 277 games, mean reward -1.530, eps 0.02, speed 95.27 f/s
+Best mean reward updated -1.700 -> -1.530, model saved
+586339: done 278 games, mean reward -1.480, eps 0.02, speed 93.98 f/s
+Best mean reward updated -1.530 -> -1.480, model saved
+588435: done 279 games, mean reward -1.210, eps 0.02, speed 95.44 f/s
+Best mean reward updated -1.480 -> -1.210, model saved
+591206: done 280 games, mean reward -0.980, eps 0.02, speed 95.34 f/s
+Best mean reward updated -1.210 -> -0.980, model saved
+593351: done 281 games, mean reward -0.690, eps 0.02, speed 95.91 f/s
+Best mean reward updated -0.980 -> -0.690, model saved
+595288: done 282 games, mean reward -0.390, eps 0.02, speed 95.62 f/s
+Best mean reward updated -0.690 -> -0.390, model saved
+597815: done 283 games, mean reward -0.310, eps 0.02, speed 95.22 f/s
+Best mean reward updated -0.390 -> -0.310, model saved
+600080: done 284 games, mean reward -0.080, eps 0.02, speed 95.47 f/s
+Best mean reward updated -0.310 -> -0.080, model saved
+602438: done 285 games, mean reward 0.160, eps 0.02, speed 95.79 f/s
+Best mean reward updated -0.080 -> 0.160, model saved
+604432: done 286 games, mean reward 0.370, eps 0.02, speed 94.93 f/s
+Best mean reward updated 0.160 -> 0.370, model saved
+607340: done 287 games, mean reward 0.330, eps 0.02, speed 95.49 f/s
+609724: done 288 games, mean reward 0.490, eps 0.02, speed 95.76 f/s
+Best mean reward updated 0.370 -> 0.490, model saved
+611664: done 289 games, mean reward 0.720, eps 0.02, speed 95.64 f/s
+Best mean reward updated 0.490 -> 0.720, model saved
+614509: done 290 games, mean reward 0.770, eps 0.02, speed 95.31 f/s
+Best mean reward updated 0.720 -> 0.770, model saved
+616288: done 291 games, mean reward 1.050, eps 0.02, speed 93.85 f/s
+Best mean reward updated 0.770 -> 1.050, model saved
+619106: done 292 games, mean reward 1.130, eps 0.02, speed 95.88 f/s
+Best mean reward updated 1.050 -> 1.130, model saved
+621533: done 293 games, mean reward 1.150, eps 0.02, speed 95.09 f/s
+Best mean reward updated 1.130 -> 1.150, model saved
+624761: done 294 games, mean reward 1.250, eps 0.02, speed 95.87 f/s
+Best mean reward updated 1.150 -> 1.250, model saved
+627309: done 295 games, mean reward 1.430, eps 0.02, speed 95.47 f/s
+Best mean reward updated 1.250 -> 1.430, model saved
+629635: done 296 games, mean reward 1.680, eps 0.02, speed 95.21 f/s
+Best mean reward updated 1.430 -> 1.680, model saved
+632332: done 297 games, mean reward 1.910, eps 0.02, speed 95.31 f/s
+Best mean reward updated 1.680 -> 1.910, model saved
+635340: done 298 games, mean reward 1.960, eps 0.02, speed 94.97 f/s
+Best mean reward updated 1.910 -> 1.960, model saved
+638192: done 299 games, mean reward 2.050, eps 0.02, speed 95.53 f/s
+Best mean reward updated 1.960 -> 2.050, model saved
+640983: done 300 games, mean reward 2.250, eps 0.02, speed 95.61 f/s
+Best mean reward updated 2.050 -> 2.250, model saved
+644112: done 301 games, mean reward 2.400, eps 0.02, speed 95.38 f/s
+Best mean reward updated 2.250 -> 2.400, model saved
+646475: done 302 games, mean reward 2.710, eps 0.02, speed 94.32 f/s
+Best mean reward updated 2.400 -> 2.710, model saved
+648664: done 303 games, mean reward 2.940, eps 0.02, speed 95.85 f/s
+Best mean reward updated 2.710 -> 2.940, model saved
+650625: done 304 games, mean reward 3.210, eps 0.02, speed 95.36 f/s
+Best mean reward updated 2.940 -> 3.210, model saved
+652710: done 305 games, mean reward 3.460, eps 0.02, speed 95.15 f/s
+Best mean reward updated 3.210 -> 3.460, model saved
+654950: done 306 games, mean reward 3.740, eps 0.02, speed 95.69 f/s
+Best mean reward updated 3.460 -> 3.740, model saved
+656812: done 307 games, mean reward 4.080, eps 0.02, speed 95.61 f/s
+Best mean reward updated 3.740 -> 4.080, model saved
+658745: done 308 games, mean reward 4.300, eps 0.02, speed 94.79 f/s
+Best mean reward updated 4.080 -> 4.300, model saved
+660830: done 309 games, mean reward 4.460, eps 0.02, speed 95.23 f/s
+Best mean reward updated 4.300 -> 4.460, model saved
+662997: done 310 games, mean reward 4.650, eps 0.02, speed 95.04 f/s
+Best mean reward updated 4.460 -> 4.650, model saved
+664781: done 311 games, mean reward 4.950, eps 0.02, speed 94.08 f/s
+Best mean reward updated 4.650 -> 4.950, model saved
+667205: done 312 games, mean reward 5.180, eps 0.02, speed 94.40 f/s
+Best mean reward updated 4.950 -> 5.180, model saved
+669164: done 313 games, mean reward 5.400, eps 0.02, speed 95.08 f/s
+Best mean reward updated 5.180 -> 5.400, model saved
+671611: done 314 games, mean reward 5.520, eps 0.02, speed 95.86 f/s
+Best mean reward updated 5.400 -> 5.520, model saved
+674292: done 315 games, mean reward 5.730, eps 0.02, speed 94.49 f/s
+Best mean reward updated 5.520 -> 5.730, model saved
+676369: done 316 games, mean reward 5.950, eps 0.02, speed 90.57 f/s
+Best mean reward updated 5.730 -> 5.950, model saved
+678877: done 317 games, mean reward 6.220, eps 0.02, speed 92.23 f/s
+Best mean reward updated 5.950 -> 6.220, model saved
+680809: done 318 games, mean reward 6.520, eps 0.02, speed 94.70 f/s
+Best mean reward updated 6.220 -> 6.520, model saved
+684133: done 319 games, mean reward 6.640, eps 0.02, speed 94.70 f/s
+Best mean reward updated 6.520 -> 6.640, model saved
+687194: done 320 games, mean reward 6.580, eps 0.02, speed 94.37 f/s
+689974: done 321 games, mean reward 6.760, eps 0.02, speed 91.28 f/s
+Best mean reward updated 6.640 -> 6.760, model saved
+692381: done 322 games, mean reward 6.920, eps 0.02, speed 93.88 f/s
+Best mean reward updated 6.760 -> 6.920, model saved
+694783: done 323 games, mean reward 7.190, eps 0.02, speed 95.05 f/s
+Best mean reward updated 6.920 -> 7.190, model saved
+696027: done 324 games, mean reward 7.060, eps 0.02, speed 93.96 f/s
+697843: done 325 games, mean reward 7.260, eps 0.02, speed 94.97 f/s
+Best mean reward updated 7.190 -> 7.260, model saved
+700532: done 326 games, mean reward 7.410, eps 0.02, speed 95.36 f/s
+Best mean reward updated 7.260 -> 7.410, model saved
+703463: done 327 games, mean reward 7.480, eps 0.02, speed 94.90 f/s
+Best mean reward updated 7.410 -> 7.480, model saved
+706201: done 328 games, mean reward 7.640, eps 0.02, speed 94.61 f/s
+Best mean reward updated 7.480 -> 7.640, model saved
+708208: done 329 games, mean reward 7.810, eps 0.02, speed 95.43 f/s
+Best mean reward updated 7.640 -> 7.810, model saved
+710242: done 330 games, mean reward 8.020, eps 0.02, speed 95.54 f/s
+Best mean reward updated 7.810 -> 8.020, model saved
+712278: done 331 games, mean reward 8.220, eps 0.02, speed 93.77 f/s
+Best mean reward updated 8.020 -> 8.220, model saved
+714263: done 332 games, mean reward 8.390, eps 0.02, speed 95.18 f/s
+Best mean reward updated 8.220 -> 8.390, model saved
+716288: done 333 games, mean reward 8.530, eps 0.02, speed 95.68 f/s
+Best mean reward updated 8.390 -> 8.530, model saved
+719076: done 334 games, mean reward 8.570, eps 0.02, speed 95.33 f/s
+Best mean reward updated 8.530 -> 8.570, model saved
+721099: done 335 games, mean reward 8.680, eps 0.02, speed 94.38 f/s
+Best mean reward updated 8.570 -> 8.680, model saved
+722789: done 336 games, mean reward 8.760, eps 0.02, speed 95.79 f/s
+Best mean reward updated 8.680 -> 8.760, model saved
+724603: done 337 games, mean reward 8.780, eps 0.02, speed 95.50 f/s
+Best mean reward updated 8.760 -> 8.780, model saved
+726724: done 338 games, mean reward 8.890, eps 0.02, speed 95.04 f/s
+Best mean reward updated 8.780 -> 8.890, model saved
+728636: done 339 games, mean reward 8.920, eps 0.02, speed 95.04 f/s
+Best mean reward updated 8.890 -> 8.920, model saved
+730878: done 340 games, mean reward 8.970, eps 0.02, speed 95.82 f/s
+Best mean reward updated 8.920 -> 8.970, model saved
+732564: done 341 games, mean reward 9.200, eps 0.02, speed 95.31 f/s
+Best mean reward updated 8.970 -> 9.200, model saved
+734595: done 342 games, mean reward 9.500, eps 0.02, speed 92.98 f/s
+Best mean reward updated 9.200 -> 9.500, model saved
+737067: done 343 games, mean reward 9.320, eps 0.02, speed 92.67 f/s
+739820: done 344 games, mean reward 9.480, eps 0.02, speed 91.64 f/s
+742638: done 345 games, mean reward 9.570, eps 0.02, speed 90.10 f/s
+Best mean reward updated 9.500 -> 9.570, model saved
+745688: done 346 games, mean reward 9.630, eps 0.02, speed 90.15 f/s
+Best mean reward updated 9.570 -> 9.630, model saved
+747803: done 347 games, mean reward 9.630, eps 0.02, speed 90.79 f/s
+750051: done 348 games, mean reward 9.690, eps 0.02, speed 90.76 f/s
+Best mean reward updated 9.630 -> 9.690, model saved
+752373: done 349 games, mean reward 9.930, eps 0.02, speed 92.86 f/s
+Best mean reward updated 9.690 -> 9.930, model saved
+755323: done 350 games, mean reward 9.900, eps 0.02, speed 93.40 f/s
+757870: done 351 games, mean reward 9.880, eps 0.02, speed 93.39 f/s
+759891: done 352 games, mean reward 10.180, eps 0.02, speed 94.69 f/s
+Best mean reward updated 9.930 -> 10.180, model saved
+761879: done 353 games, mean reward 10.230, eps 0.02, speed 94.14 f/s
+Best mean reward updated 10.180 -> 10.230, model saved
+763944: done 354 games, mean reward 10.330, eps 0.02, speed 94.85 f/s
+Best mean reward updated 10.230 -> 10.330, model saved
+766261: done 355 games, mean reward 10.370, eps 0.02, speed 95.43 f/s
+Best mean reward updated 10.330 -> 10.370, model saved
+767907: done 356 games, mean reward 10.480, eps 0.02, speed 95.39 f/s
+Best mean reward updated 10.370 -> 10.480, model saved
+770134: done 357 games, mean reward 10.490, eps 0.02, speed 95.97 f/s
+Best mean reward updated 10.480 -> 10.490, model saved
+773287: done 358 games, mean reward 10.400, eps 0.02, speed 95.23 f/s
+775992: done 359 games, mean reward 10.390, eps 0.02, speed 95.81 f/s
+778398: done 360 games, mean reward 10.320, eps 0.02, speed 95.28 f/s
+780142: done 361 games, mean reward 10.340, eps 0.02, speed 95.56 f/s
+781808: done 362 games, mean reward 10.390, eps 0.02, speed 95.93 f/s
+784483: done 363 games, mean reward 10.620, eps 0.02, speed 95.97 f/s
+Best mean reward updated 10.490 -> 10.620, model saved
+787461: done 364 games, mean reward 10.610, eps 0.02, speed 90.65 f/s
+790127: done 365 games, mean reward 10.580, eps 0.02, speed 91.88 f/s
+792080: done 366 games, mean reward 10.700, eps 0.02, speed 91.31 f/s
+Best mean reward updated 10.620 -> 10.700, model saved
+794310: done 367 games, mean reward 10.690, eps 0.02, speed 95.37 f/s
+796434: done 368 games, mean reward 10.660, eps 0.02, speed 95.05 f/s
+798428: done 369 games, mean reward 10.700, eps 0.02, speed 95.58 f/s
+801242: done 370 games, mean reward 10.660, eps 0.02, speed 95.27 f/s
+803236: done 371 games, mean reward 10.630, eps 0.02, speed 92.28 f/s
+806391: done 372 games, mean reward 10.460, eps 0.02, speed 92.03 f/s
+808791: done 373 games, mean reward 10.490, eps 0.02, speed 92.38 f/s
+810981: done 374 games, mean reward 10.430, eps 0.02, speed 92.50 f/s
+813148: done 375 games, mean reward 10.430, eps 0.02, speed 93.13 f/s
+815338: done 376 games, mean reward 10.400, eps 0.02, speed 93.27 f/s
+817354: done 377 games, mean reward 10.490, eps 0.02, speed 92.12 f/s
+819188: done 378 games, mean reward 10.770, eps 0.02, speed 91.45 f/s
+Best mean reward updated 10.700 -> 10.770, model saved
+821451: done 379 games, mean reward 10.760, eps 0.02, speed 93.82 f/s
+824082: done 380 games, mean reward 10.770, eps 0.02, speed 96.01 f/s
+826678: done 381 games, mean reward 10.730, eps 0.02, speed 94.63 f/s
+828763: done 382 games, mean reward 10.710, eps 0.02, speed 95.42 f/s
+830515: done 383 games, mean reward 10.820, eps 0.02, speed 95.48 f/s
+Best mean reward updated 10.770 -> 10.820, model saved
+833315: done 384 games, mean reward 10.770, eps 0.02, speed 95.11 f/s
+835556: done 385 games, mean reward 10.770, eps 0.02, speed 95.41 f/s
+837261: done 386 games, mean reward 10.800, eps 0.02, speed 95.92 f/s
+840374: done 387 games, mean reward 10.710, eps 0.02, speed 95.37 f/s
+843403: done 388 games, mean reward 10.630, eps 0.02, speed 95.63 f/s
+845869: done 389 games, mean reward 10.560, eps 0.02, speed 95.70 f/s
+847673: done 390 games, mean reward 10.660, eps 0.02, speed 95.07 f/s
+849397: done 391 games, mean reward 10.670, eps 0.02, speed 95.14 f/s
+851447: done 392 games, mean reward 10.750, eps 0.02, speed 94.24 f/s
+853974: done 393 games, mean reward 10.750, eps 0.02, speed 95.35 f/s
+856399: done 394 games, mean reward 10.840, eps 0.02, speed 95.28 f/s
+Best mean reward updated 10.820 -> 10.840, model saved
+859218: done 395 games, mean reward 10.810, eps 0.02, speed 95.55 f/s
+860938: done 396 games, mean reward 10.870, eps 0.02, speed 91.30 f/s
+Best mean reward updated 10.840 -> 10.870, model saved
+863540: done 397 games, mean reward 10.850, eps 0.02, speed 93.22 f/s
+866232: done 398 games, mean reward 10.980, eps 0.02, speed 95.48 f/s
+Best mean reward updated 10.870 -> 10.980, model saved
+868736: done 399 games, mean reward 11.140, eps 0.02, speed 95.79 f/s
+Best mean reward updated 10.980 -> 11.140, model saved
+870566: done 400 games, mean reward 11.220, eps 0.02, speed 95.36 f/s
+Best mean reward updated 11.140 -> 11.220, model saved
+872316: done 401 games, mean reward 11.460, eps 0.02, speed 95.54 f/s
+Best mean reward updated 11.220 -> 11.460, model saved
+874247: done 402 games, mean reward 11.500, eps 0.02, speed 95.97 f/s
+Best mean reward updated 11.460 -> 11.500, model saved
+876482: done 403 games, mean reward 11.490, eps 0.02, speed 95.90 f/s
+878350: done 404 games, mean reward 11.500, eps 0.02, speed 95.46 f/s
+880165: done 405 games, mean reward 11.530, eps 0.02, speed 94.13 f/s
+Best mean reward updated 11.500 -> 11.530, model saved
+882050: done 406 games, mean reward 11.560, eps 0.02, speed 95.97 f/s
+Best mean reward updated 11.530 -> 11.560, model saved
+883894: done 407 games, mean reward 11.560, eps 0.02, speed 95.79 f/s
+885879: done 408 games, mean reward 11.560, eps 0.02, speed 95.54 f/s
+887841: done 409 games, mean reward 11.580, eps 0.02, speed 95.41 f/s
+Best mean reward updated 11.560 -> 11.580, model saved
+890304: done 410 games, mean reward 11.570, eps 0.02, speed 95.95 f/s
+892656: done 411 games, mean reward 11.330, eps 0.02, speed 95.85 f/s
+894849: done 412 games, mean reward 11.370, eps 0.02, speed 95.69 f/s
+896864: done 413 games, mean reward 11.390, eps 0.02, speed 95.98 f/s
+899408: done 414 games, mean reward 11.410, eps 0.02, speed 95.84 f/s
+901261: done 415 games, mean reward 11.490, eps 0.02, speed 95.72 f/s
+903026: done 416 games, mean reward 11.520, eps 0.02, speed 95.75 f/s
+905586: done 417 games, mean reward 11.480, eps 0.02, speed 96.22 f/s
+908239: done 418 games, mean reward 11.350, eps 0.02, speed 95.70 f/s
+909869: done 419 games, mean reward 11.610, eps 0.02, speed 93.26 f/s
+Best mean reward updated 11.580 -> 11.610, model saved
+911963: done 420 games, mean reward 11.820, eps 0.02, speed 96.05 f/s
+Best mean reward updated 11.610 -> 11.820, model saved
+915003: done 421 games, mean reward 11.760, eps 0.02, speed 95.29 f/s
+917072: done 422 games, mean reward 11.790, eps 0.02, speed 95.72 f/s
+919256: done 423 games, mean reward 11.840, eps 0.02, speed 95.89 f/s
+Best mean reward updated 11.820 -> 11.840, model saved
+922332: done 424 games, mean reward 12.060, eps 0.02, speed 95.68 f/s
+Best mean reward updated 11.840 -> 12.060, model saved
+925287: done 425 games, mean reward 11.880, eps 0.02, speed 95.63 f/s
+927365: done 426 games, mean reward 12.090, eps 0.02, speed 96.01 f/s
+Best mean reward updated 12.060 -> 12.090, model saved
+929267: done 427 games, mean reward 12.240, eps 0.02, speed 96.24 f/s
+Best mean reward updated 12.090 -> 12.240, model saved
+931265: done 428 games, mean reward 12.330, eps 0.02, speed 95.81 f/s
+Best mean reward updated 12.240 -> 12.330, model saved
+933320: done 429 games, mean reward 12.330, eps 0.02, speed 95.76 f/s
+935862: done 430 games, mean reward 12.270, eps 0.02, speed 96.30 f/s
+938429: done 431 games, mean reward 12.230, eps 0.02, speed 95.93 f/s
+941078: done 432 games, mean reward 12.150, eps 0.02, speed 94.85 f/s
+943209: done 433 games, mean reward 12.120, eps 0.02, speed 96.21 f/s
+945248: done 434 games, mean reward 12.230, eps 0.02, speed 96.02 f/s
+946949: done 435 games, mean reward 12.260, eps 0.02, speed 96.01 f/s
+948640: done 436 games, mean reward 12.270, eps 0.02, speed 95.69 f/s
+950549: done 437 games, mean reward 12.260, eps 0.02, speed 96.13 f/s
+952461: done 438 games, mean reward 12.320, eps 0.02, speed 95.99 f/s
+954519: done 439 games, mean reward 12.330, eps 0.02, speed 96.10 f/s
+956751: done 440 games, mean reward 12.380, eps 0.02, speed 95.64 f/s
+Best mean reward updated 12.330 -> 12.380, model saved
+958640: done 441 games, mean reward 12.350, eps 0.02, speed 96.34 f/s
+961164: done 442 games, mean reward 12.320, eps 0.02, speed 96.74 f/s
+962790: done 443 games, mean reward 12.590, eps 0.02, speed 95.94 f/s
+Best mean reward updated 12.380 -> 12.590, model saved
+965509: done 444 games, mean reward 12.660, eps 0.02, speed 96.11 f/s
+Best mean reward updated 12.590 -> 12.660, model saved
+968063: done 445 games, mean reward 12.780, eps 0.02, speed 96.09 f/s
+Best mean reward updated 12.660 -> 12.780, model saved
+970091: done 446 games, mean reward 12.910, eps 0.02, speed 94.97 f/s
+Best mean reward updated 12.780 -> 12.910, model saved
+971928: done 447 games, mean reward 12.950, eps 0.02, speed 95.62 f/s
+Best mean reward updated 12.910 -> 12.950, model saved
+974127: done 448 games, mean reward 12.990, eps 0.02, speed 96.26 f/s
+Best mean reward updated 12.950 -> 12.990, model saved
+976686: done 449 games, mean reward 12.960, eps 0.02, speed 96.19 f/s
+979518: done 450 games, mean reward 12.990, eps 0.02, speed 95.60 f/s
+981235: done 451 games, mean reward 13.100, eps 0.02, speed 95.64 f/s
+Best mean reward updated 12.990 -> 13.100, model saved
+982971: done 452 games, mean reward 13.140, eps 0.02, speed 95.57 f/s
+Best mean reward updated 13.100 -> 13.140, model saved
+984996: done 453 games, mean reward 13.130, eps 0.02, speed 95.60 f/s
+987513: done 454 games, mean reward 13.160, eps 0.02, speed 95.31 f/s
+Best mean reward updated 13.140 -> 13.160, model saved
+989377: done 455 games, mean reward 13.240, eps 0.02, speed 95.99 f/s
+Best mean reward updated 13.160 -> 13.240, model saved
+991182: done 456 games, mean reward 13.200, eps 0.02, speed 95.95 f/s
+993001: done 457 games, mean reward 13.260, eps 0.02, speed 95.84 f/s
+Best mean reward updated 13.240 -> 13.260, model saved
+995768: done 458 games, mean reward 13.290, eps 0.02, speed 95.62 f/s
+Best mean reward updated 13.260 -> 13.290, model saved
+997824: done 459 games, mean reward 13.370, eps 0.02, speed 95.54 f/s
+Best mean reward updated 13.290 -> 13.370, model saved
+1000219: done 460 games, mean reward 13.400, eps 0.02, speed 93.92 f/s
+Best mean reward updated 13.370 -> 13.400, model saved
+1002497: done 461 games, mean reward 13.350, eps 0.02, speed 94.65 f/s
+1004718: done 462 games, mean reward 13.300, eps 0.02, speed 88.24 f/s
+1006711: done 463 games, mean reward 13.370, eps 0.02, speed 92.06 f/s
+1008699: done 464 games, mean reward 13.460, eps 0.02, speed 93.47 f/s
+Best mean reward updated 13.400 -> 13.460, model saved
+1010682: done 465 games, mean reward 13.530, eps 0.02, speed 94.77 f/s
+Best mean reward updated 13.460 -> 13.530, model saved
+1012541: done 466 games, mean reward 13.540, eps 0.02, speed 95.90 f/s
+Best mean reward updated 13.530 -> 13.540, model saved
+1014769: done 467 games, mean reward 13.510, eps 0.02, speed 95.27 f/s
+1017027: done 468 games, mean reward 13.480, eps 0.02, speed 93.86 f/s
+1019143: done 469 games, mean reward 13.390, eps 0.02, speed 91.85 f/s
+1021454: done 470 games, mean reward 13.420, eps 0.02, speed 93.25 f/s
+1023434: done 471 games, mean reward 13.460, eps 0.02, speed 93.97 f/s
+1025697: done 472 games, mean reward 13.600, eps 0.02, speed 92.79 f/s
+Best mean reward updated 13.540 -> 13.600, model saved
+1027767: done 473 games, mean reward 13.650, eps 0.02, speed 93.68 f/s
+Best mean reward updated 13.600 -> 13.650, model saved
+1030052: done 474 games, mean reward 13.660, eps 0.02, speed 96.20 f/s
+Best mean reward updated 13.650 -> 13.660, model saved
+1033049: done 475 games, mean reward 13.570, eps 0.02, speed 95.81 f/s
+1034868: done 476 games, mean reward 13.300, eps 0.02, speed 96.15 f/s
+1037167: done 477 games, mean reward 13.260, eps 0.02, speed 96.38 f/s
+1039005: done 478 games, mean reward 13.260, eps 0.02, speed 95.45 f/s
+1041322: done 479 games, mean reward 13.260, eps 0.02, speed 96.24 f/s
+1043271: done 480 games, mean reward 13.320, eps 0.02, speed 96.39 f/s
+1046664: done 481 games, mean reward 13.250, eps 0.02, speed 96.24 f/s
+1049738: done 482 games, mean reward 13.150, eps 0.02, speed 95.68 f/s
+1052077: done 483 games, mean reward 13.100, eps 0.02, speed 96.21 f/s
+1054018: done 484 games, mean reward 13.180, eps 0.02, speed 96.25 f/s
+1055948: done 485 games, mean reward 13.220, eps 0.02, speed 95.39 f/s
+1058657: done 486 games, mean reward 13.030, eps 0.02, speed 94.95 f/s
+1060861: done 487 games, mean reward 13.220, eps 0.02, speed 96.49 f/s
+1063148: done 488 games, mean reward 13.340, eps 0.02, speed 95.72 f/s
+1065931: done 489 games, mean reward 13.320, eps 0.02, speed 96.12 f/s
+1068170: done 490 games, mean reward 13.270, eps 0.02, speed 95.98 f/s
+1070249: done 491 games, mean reward 13.240, eps 0.02, speed 96.13 f/s
+1072844: done 492 games, mean reward 13.160, eps 0.02, speed 96.11 f/s
+1074893: done 493 games, mean reward 13.230, eps 0.02, speed 96.18 f/s
+1076735: done 494 games, mean reward 13.300, eps 0.02, speed 96.01 f/s
+1078514: done 495 games, mean reward 13.430, eps 0.02, speed 95.60 f/s
+1080995: done 496 games, mean reward 13.350, eps 0.02, speed 96.42 f/s
+1082926: done 497 games, mean reward 13.450, eps 0.02, speed 96.35 f/s
+1084587: done 498 games, mean reward 13.580, eps 0.02, speed 96.35 f/s
+1086259: done 499 games, mean reward 13.680, eps 0.02, speed 95.75 f/s
+Best mean reward updated 13.660 -> 13.680, model saved
+1088404: done 500 games, mean reward 13.660, eps 0.02, speed 94.98 f/s
+1090153: done 501 games, mean reward 13.660, eps 0.02, speed 96.70 f/s
+1092546: done 502 games, mean reward 13.530, eps 0.02, speed 96.27 f/s
+1094605: done 503 games, mean reward 13.560, eps 0.02, speed 95.88 f/s
+1096721: done 504 games, mean reward 13.530, eps 0.02, speed 96.29 f/s
+1099056: done 505 games, mean reward 13.490, eps 0.02, speed 96.58 f/s
+1100941: done 506 games, mean reward 13.490, eps 0.02, speed 96.43 f/s
+1102696: done 507 games, mean reward 13.490, eps 0.02, speed 95.91 f/s
+1104522: done 508 games, mean reward 13.500, eps 0.02, speed 96.53 f/s
+1107396: done 509 games, mean reward 13.350, eps 0.02, speed 96.58 f/s
+1109085: done 510 games, mean reward 13.440, eps 0.02, speed 95.91 f/s
+1111485: done 511 games, mean reward 13.600, eps 0.02, speed 96.17 f/s
+1113423: done 512 games, mean reward 13.650, eps 0.02, speed 96.44 f/s
+1115665: done 513 games, mean reward 13.640, eps 0.02, speed 96.48 f/s
+1117959: done 514 games, mean reward 13.670, eps 0.02, speed 94.84 f/s
+1119794: done 515 games, mean reward 13.680, eps 0.02, speed 96.08 f/s
+1121722: done 516 games, mean reward 13.680, eps 0.02, speed 96.37 f/s
+1123400: done 517 games, mean reward 13.810, eps 0.02, speed 96.42 f/s
+Best mean reward updated 13.680 -> 13.810, model saved
+1125025: done 518 games, mean reward 13.970, eps 0.02, speed 95.49 f/s
+Best mean reward updated 13.810 -> 13.970, model saved
+1126975: done 519 games, mean reward 13.920, eps 0.02, speed 95.74 f/s
+1129736: done 520 games, mean reward 13.830, eps 0.02, speed 96.45 f/s
+1131645: done 521 games, mean reward 13.980, eps 0.02, speed 96.18 f/s
+Best mean reward updated 13.970 -> 13.980, model saved
+1133977: done 522 games, mean reward 13.970, eps 0.02, speed 95.93 f/s
+1136091: done 523 games, mean reward 13.990, eps 0.02, speed 96.25 f/s
+Best mean reward updated 13.980 -> 13.990, model saved
+1138853: done 524 games, mean reward 14.050, eps 0.02, speed 96.30 f/s
+Best mean reward updated 13.990 -> 14.050, model saved
+1141369: done 525 games, mean reward 14.170, eps 0.02, speed 95.94 f/s
+Best mean reward updated 14.050 -> 14.170, model saved
+1143756: done 526 games, mean reward 14.130, eps 0.02, speed 96.47 f/s
+1145695: done 527 games, mean reward 14.100, eps 0.02, speed 96.31 f/s
+1147673: done 528 games, mean reward 14.090, eps 0.02, speed 94.32 f/s
+1149425: done 529 games, mean reward 14.140, eps 0.02, speed 96.46 f/s
+1151993: done 530 games, mean reward 14.130, eps 0.02, speed 95.97 f/s
+1154414: done 531 games, mean reward 14.140, eps 0.02, speed 96.26 f/s
+1156369: done 532 games, mean reward 14.230, eps 0.02, speed 95.55 f/s
+Best mean reward updated 14.170 -> 14.230, model saved
+1158213: done 533 games, mean reward 14.280, eps 0.02, speed 96.16 f/s
+Best mean reward updated 14.230 -> 14.280, model saved
+1160166: done 534 games, mean reward 14.270, eps 0.02, speed 95.93 f/s
+1162399: done 535 games, mean reward 14.230, eps 0.02, speed 96.33 f/s
+1165034: done 536 games, mean reward 14.090, eps 0.02, speed 95.89 f/s
+1167329: done 537 games, mean reward 14.040, eps 0.02, speed 96.38 f/s
+1169669: done 538 games, mean reward 13.950, eps 0.02, speed 96.26 f/s
+1173395: done 539 games, mean reward 13.810, eps 0.02, speed 95.84 f/s
+1176922: done 540 games, mean reward 13.690, eps 0.02, speed 95.17 f/s
+1178718: done 541 games, mean reward 13.710, eps 0.02, speed 95.73 f/s
+1180547: done 542 games, mean reward 13.770, eps 0.02, speed 95.80 f/s
+1182442: done 543 games, mean reward 13.720, eps 0.02, speed 95.63 f/s
+1184323: done 544 games, mean reward 13.780, eps 0.02, speed 96.39 f/s
+1186982: done 545 games, mean reward 13.760, eps 0.02, speed 95.33 f/s
+1189369: done 546 games, mean reward 13.720, eps 0.02, speed 96.10 f/s
+1191676: done 547 games, mean reward 13.670, eps 0.02, speed 95.95 f/s
+1193556: done 548 games, mean reward 13.700, eps 0.02, speed 96.04 f/s
+1195528: done 549 games, mean reward 13.770, eps 0.02, speed 95.82 f/s
+1198749: done 550 games, mean reward 13.720, eps 0.02, speed 95.91 f/s
+1201428: done 551 games, mean reward 13.590, eps 0.02, speed 95.86 f/s
+1204216: done 552 games, mean reward 13.470, eps 0.02, speed 95.84 f/s
+1206295: done 553 games, mean reward 13.450, eps 0.02, speed 94.17 f/s
+1208671: done 554 games, mean reward 13.390, eps 0.02, speed 90.53 f/s
+1211459: done 555 games, mean reward 13.280, eps 0.02, speed 93.34 f/s
+1213961: done 556 games, mean reward 13.170, eps 0.02, speed 96.06 f/s
+1216166: done 557 games, mean reward 13.070, eps 0.02, speed 96.48 f/s
+1218404: done 558 games, mean reward 13.160, eps 0.02, speed 96.41 f/s
+1220648: done 559 games, mean reward 13.150, eps 0.02, speed 95.09 f/s
+1223016: done 560 games, mean reward 13.110, eps 0.02, speed 89.68 f/s
+1225075: done 561 games, mean reward 13.130, eps 0.02, speed 92.80 f/s
+1226891: done 562 games, mean reward 13.160, eps 0.02, speed 96.37 f/s
+1229010: done 563 games, mean reward 13.140, eps 0.02, speed 96.23 f/s
+1231841: done 564 games, mean reward 12.940, eps 0.02, speed 96.00 f/s
+1234001: done 565 games, mean reward 12.910, eps 0.02, speed 96.02 f/s
+1236547: done 566 games, mean reward 12.650, eps 0.02, speed 94.98 f/s
+1239960: done 567 games, mean reward 12.620, eps 0.02, speed 96.17 f/s
+1242133: done 568 games, mean reward 12.380, eps 0.02, speed 96.34 f/s
+1244141: done 569 games, mean reward 12.450, eps 0.02, speed 95.96 f/s
+1247080: done 570 games, mean reward 12.360, eps 0.02, speed 96.19 f/s
+1249403: done 571 games, mean reward 12.310, eps 0.02, speed 96.19 f/s
+1252190: done 572 games, mean reward 12.120, eps 0.02, speed 96.37 f/s
+1254457: done 573 games, mean reward 12.120, eps 0.02, speed 95.87 f/s
+1257720: done 574 games, mean reward 11.970, eps 0.02, speed 95.62 f/s
+1258542: done 575 games, mean reward 11.720, eps 0.02, speed 96.34 f/s
+1261026: done 576 games, mean reward 11.800, eps 0.02, speed 95.47 f/s
+1263459: done 577 games, mean reward 11.770, eps 0.02, speed 95.68 f/s
+1265373: done 578 games, mean reward 11.780, eps 0.02, speed 95.22 f/s
+1268791: done 579 games, mean reward 11.660, eps 0.02, speed 95.75 f/s
+1271033: done 580 games, mean reward 11.660, eps 0.02, speed 95.94 f/s
+1273956: done 581 games, mean reward 11.700, eps 0.02, speed 95.96 f/s
+1276043: done 582 games, mean reward 11.820, eps 0.02, speed 96.26 f/s
+1277738: done 583 games, mean reward 11.900, eps 0.02, speed 95.99 f/s
+1280799: done 584 games, mean reward 11.760, eps 0.02, speed 96.12 f/s
+1282980: done 585 games, mean reward 11.730, eps 0.02, speed 96.27 f/s
+1285611: done 586 games, mean reward 11.840, eps 0.02, speed 96.36 f/s
+1287932: done 587 games, mean reward 11.830, eps 0.02, speed 96.11 f/s
+1289854: done 588 games, mean reward 11.850, eps 0.02, speed 96.08 f/s
+1292152: done 589 games, mean reward 11.920, eps 0.02, speed 96.17 f/s
+1294172: done 590 games, mean reward 11.960, eps 0.02, speed 95.57 f/s
+1296048: done 591 games, mean reward 11.990, eps 0.02, speed 94.20 f/s
+1298145: done 592 games, mean reward 12.060, eps 0.02, speed 96.08 f/s
+1300198: done 593 games, mean reward 12.060, eps 0.02, speed 96.04 f/s
+1302876: done 594 games, mean reward 11.930, eps 0.02, speed 95.44 f/s
+1305725: done 595 games, mean reward 11.820, eps 0.02, speed 96.43 f/s
+1307607: done 596 games, mean reward 11.880, eps 0.02, speed 96.40 f/s
+1309483: done 597 games, mean reward 11.890, eps 0.02, speed 95.82 f/s
+1311330: done 598 games, mean reward 11.880, eps 0.02, speed 96.23 f/s
+1313164: done 599 games, mean reward 11.860, eps 0.02, speed 96.08 f/s
+1315087: done 600 games, mean reward 11.890, eps 0.02, speed 96.11 f/s
+1317177: done 601 games, mean reward 11.870, eps 0.02, speed 95.84 f/s
+1319929: done 602 games, mean reward 11.890, eps 0.02, speed 96.30 f/s
+1322196: done 603 games, mean reward 11.840, eps 0.02, speed 96.28 f/s
+1324866: done 604 games, mean reward 11.810, eps 0.02, speed 95.11 f/s
+1326493: done 605 games, mean reward 11.890, eps 0.02, speed 95.54 f/s
+1328736: done 606 games, mean reward 11.840, eps 0.02, speed 96.06 f/s
+1330402: done 607 games, mean reward 11.860, eps 0.02, speed 95.99 f/s
+1332730: done 608 games, mean reward 11.820, eps 0.02, speed 95.41 f/s
+1334356: done 609 games, mean reward 12.010, eps 0.02, speed 96.33 f/s
+1336857: done 610 games, mean reward 11.900, eps 0.02, speed 96.23 f/s
+1338914: done 611 games, mean reward 11.950, eps 0.02, speed 95.82 f/s
+1340721: done 612 games, mean reward 11.950, eps 0.02, speed 95.43 f/s
+1342770: done 613 games, mean reward 11.960, eps 0.02, speed 95.81 f/s
+1345715: done 614 games, mean reward 11.880, eps 0.02, speed 96.46 f/s
+1348726: done 615 games, mean reward 11.710, eps 0.02, speed 95.60 f/s
+1350900: done 616 games, mean reward 11.670, eps 0.02, speed 96.30 f/s
+1352929: done 617 games, mean reward 11.610, eps 0.02, speed 96.47 f/s
+1355068: done 618 games, mean reward 11.540, eps 0.02, speed 94.70 f/s
+1357056: done 619 games, mean reward 11.550, eps 0.02, speed 96.39 f/s
+1360233: done 620 games, mean reward 11.510, eps 0.02, speed 96.11 f/s
+1362346: done 621 games, mean reward 11.490, eps 0.02, speed 96.39 f/s
+1364199: done 622 games, mean reward 11.540, eps 0.02, speed 95.42 f/s
+1366188: done 623 games, mean reward 11.570, eps 0.02, speed 96.08 f/s
+1368439: done 624 games, mean reward 11.660, eps 0.02, speed 95.88 f/s
+1370131: done 625 games, mean reward 11.760, eps 0.02, speed 95.82 f/s
+1372881: done 626 games, mean reward 11.570, eps 0.02, speed 95.55 f/s
+1375071: done 627 games, mean reward 11.540, eps 0.02, speed 92.24 f/s
+1377434: done 628 games, mean reward 11.500, eps 0.02, speed 93.50 f/s
+1379249: done 629 games, mean reward 11.510, eps 0.02, speed 95.55 f/s
+1382021: done 630 games, mean reward 11.470, eps 0.02, speed 96.02 f/s
+1384344: done 631 games, mean reward 11.460, eps 0.02, speed 94.90 f/s
+1386656: done 632 games, mean reward 11.420, eps 0.02, speed 94.95 f/s
+1389699: done 633 games, mean reward 11.210, eps 0.02, speed 95.36 f/s
+1392491: done 634 games, mean reward 11.150, eps 0.02, speed 96.06 f/s
+1394513: done 635 games, mean reward 10.840, eps 0.02, speed 95.40 f/s
+1397176: done 636 games, mean reward 10.710, eps 0.02, speed 95.93 f/s
+1400064: done 637 games, mean reward 10.710, eps 0.02, speed 96.12 f/s
+1402400: done 638 games, mean reward 10.710, eps 0.02, speed 95.66 f/s
+1404779: done 639 games, mean reward 10.810, eps 0.02, speed 96.23 f/s
+1407392: done 640 games, mean reward 10.910, eps 0.02, speed 96.01 f/s
+1409914: done 641 games, mean reward 10.820, eps 0.02, speed 95.57 f/s
+1412090: done 642 games, mean reward 10.780, eps 0.02, speed 96.23 f/s
+1414502: done 643 games, mean reward 10.730, eps 0.02, speed 95.04 f/s
+1417265: done 644 games, mean reward 10.610, eps 0.02, speed 95.98 f/s
+1419629: done 645 games, mean reward 10.650, eps 0.02, speed 95.55 f/s
+1422569: done 646 games, mean reward 10.580, eps 0.02, speed 96.11 f/s
+1424230: done 647 games, mean reward 10.650, eps 0.02, speed 96.14 f/s
+1426169: done 648 games, mean reward 10.650, eps 0.02, speed 96.13 f/s
+1428184: done 649 games, mean reward 10.610, eps 0.02, speed 96.64 f/s
+1430503: done 650 games, mean reward 10.470, eps 0.02, speed 96.57 f/s
+1433439: done 651 games, mean reward 10.490, eps 0.02, speed 95.86 f/s
+1436101: done 652 games, mean reward 10.520, eps 0.02, speed 95.75 f/s
+1439037: done 653 games, mean reward 10.460, eps 0.02, speed 91.62 f/s
+1441209: done 654 games, mean reward 10.530, eps 0.02, speed 92.39 f/s
+1443418: done 655 games, mean reward 10.610, eps 0.02, speed 92.57 f/s
+1445665: done 656 games, mean reward 10.690, eps 0.02, speed 95.39 f/s
+1447696: done 657 games, mean reward 10.770, eps 0.02, speed 95.37 f/s
+1449739: done 658 games, mean reward 10.760, eps 0.02, speed 96.23 f/s
+1452105: done 659 games, mean reward 10.720, eps 0.02, speed 96.43 f/s
+1454135: done 660 games, mean reward 10.790, eps 0.02, speed 95.87 f/s
+1455883: done 661 games, mean reward 10.830, eps 0.02, speed 95.72 f/s
+1458192: done 662 games, mean reward 10.770, eps 0.02, speed 95.74 f/s
+1459960: done 663 games, mean reward 10.810, eps 0.02, speed 96.25 f/s
+1462159: done 664 games, mean reward 11.010, eps 0.02, speed 96.44 f/s
+1464366: done 665 games, mean reward 11.000, eps 0.02, speed 95.80 f/s
+1466528: done 666 games, mean reward 11.210, eps 0.02, speed 96.35 f/s
+1469551: done 667 games, mean reward 11.180, eps 0.02, speed 96.31 f/s
+1471486: done 668 games, mean reward 11.470, eps 0.02, speed 96.18 f/s
+1473532: done 669 games, mean reward 11.460, eps 0.02, speed 95.25 f/s
+1475231: done 670 games, mean reward 11.620, eps 0.02, speed 95.37 f/s
+1476856: done 671 games, mean reward 11.690, eps 0.02, speed 95.50 f/s
+1478481: done 672 games, mean reward 11.970, eps 0.02, speed 95.66 f/s
+1480424: done 673 games, mean reward 11.970, eps 0.02, speed 95.76 f/s
+1482928: done 674 games, mean reward 12.090, eps 0.02, speed 96.43 f/s
+1485333: done 675 games, mean reward 12.370, eps 0.02, speed 96.03 f/s
+1488484: done 676 games, mean reward 12.430, eps 0.02, speed 95.93 f/s
+1490234: done 677 games, mean reward 12.520, eps 0.02, speed 96.07 f/s
+1492272: done 678 games, mean reward 12.500, eps 0.02, speed 96.04 f/s
+1494341: done 679 games, mean reward 12.630, eps 0.02, speed 95.71 f/s
+1496002: done 680 games, mean reward 12.670, eps 0.02, speed 95.96 f/s
+1498439: done 681 games, mean reward 12.740, eps 0.02, speed 96.10 f/s
+1500606: done 682 games, mean reward 12.740, eps 0.02, speed 95.65 f/s
+1502391: done 683 games, mean reward 12.720, eps 0.02, speed 95.56 f/s
+1504409: done 684 games, mean reward 12.860, eps 0.02, speed 94.46 f/s
+1506228: done 685 games, mean reward 12.910, eps 0.02, speed 95.77 f/s
+1508068: done 686 games, mean reward 12.990, eps 0.02, speed 95.92 f/s
+1509710: done 687 games, mean reward 13.080, eps 0.02, speed 95.98 f/s
+1511902: done 688 games, mean reward 13.020, eps 0.02, speed 96.44 f/s
+1513771: done 689 games, mean reward 13.050, eps 0.02, speed 96.35 f/s
+1516134: done 690 games, mean reward 12.970, eps 0.02, speed 95.85 f/s
+1518223: done 691 games, mean reward 12.940, eps 0.02, speed 95.49 f/s
+1520100: done 692 games, mean reward 12.960, eps 0.02, speed 96.31 f/s
+1521881: done 693 games, mean reward 12.980, eps 0.02, speed 96.32 f/s
+1522721: done 694 games, mean reward 12.720, eps 0.02, speed 96.32 f/s
+1524959: done 695 games, mean reward 12.580, eps 0.02, speed 95.93 f/s
+1526879: done 696 games, mean reward 12.590, eps 0.02, speed 96.02 f/s
+1528968: done 697 games, mean reward 12.560, eps 0.02, speed 96.37 f/s
+1531303: done 698 games, mean reward 12.480, eps 0.02, speed 96.67 f/s
+1533724: done 699 games, mean reward 12.370, eps 0.02, speed 95.13 f/s
+1535419: done 700 games, mean reward 12.380, eps 0.02, speed 95.70 f/s
+1537829: done 701 games, mean reward 12.300, eps 0.02, speed 96.56 f/s
+1539939: done 702 games, mean reward 12.390, eps 0.02, speed 96.44 f/s
+1541822: done 703 games, mean reward 12.460, eps 0.02, speed 96.09 f/s
+1543448: done 704 games, mean reward 12.550, eps 0.02, speed 96.85 f/s
+1545371: done 705 games, mean reward 12.520, eps 0.02, speed 96.86 f/s
+1548094: done 706 games, mean reward 12.470, eps 0.02, speed 96.74 f/s
+1550939: done 707 games, mean reward 12.350, eps 0.02, speed 96.91 f/s
+1552998: done 708 games, mean reward 12.370, eps 0.02, speed 96.95 f/s
+1554752: done 709 games, mean reward 12.350, eps 0.02, speed 96.89 f/s
+1556567: done 710 games, mean reward 12.440, eps 0.02, speed 96.27 f/s
+1558379: done 711 games, mean reward 12.480, eps 0.02, speed 97.12 f/s
+1560231: done 712 games, mean reward 12.470, eps 0.02, speed 96.96 f/s
+1563318: done 713 games, mean reward 12.300, eps 0.02, speed 95.75 f/s
+1566036: done 714 games, mean reward 12.350, eps 0.02, speed 95.68 f/s
+1568724: done 715 games, mean reward 12.380, eps 0.02, speed 97.18 f/s
+1571123: done 716 games, mean reward 12.320, eps 0.02, speed 96.52 f/s
+1573180: done 717 games, mean reward 12.320, eps 0.02, speed 96.45 f/s
+1576135: done 718 games, mean reward 12.210, eps 0.02, speed 96.74 f/s
+1578234: done 719 games, mean reward 12.200, eps 0.02, speed 96.53 f/s
+1580310: done 720 games, mean reward 12.320, eps 0.02, speed 96.47 f/s
+1582753: done 721 games, mean reward 12.270, eps 0.02, speed 96.73 f/s
+1585992: done 722 games, mean reward 12.100, eps 0.02, speed 96.81 f/s
+1588973: done 723 games, mean reward 11.960, eps 0.02, speed 96.37 f/s
+1592066: done 724 games, mean reward 11.850, eps 0.02, speed 96.87 f/s
+1594868: done 725 games, mean reward 11.700, eps 0.02, speed 94.87 f/s
+1596588: done 726 games, mean reward 11.960, eps 0.02, speed 96.89 f/s
+1598923: done 727 games, mean reward 11.980, eps 0.02, speed 97.31 f/s
+1602195: done 728 games, mean reward 11.850, eps 0.02, speed 96.75 f/s
+1605212: done 729 games, mean reward 11.670, eps 0.02, speed 96.96 f/s
+1607339: done 730 games, mean reward 11.780, eps 0.02, speed 97.27 f/s
+1609295: done 731 games, mean reward 11.850, eps 0.02, speed 97.15 f/s
+1611083: done 732 games, mean reward 11.900, eps 0.02, speed 96.24 f/s
+1613400: done 733 games, mean reward 12.030, eps 0.02, speed 96.99 f/s
+1615205: done 734 games, mean reward 12.110, eps 0.02, speed 97.29 f/s
+1616930: done 735 games, mean reward 12.450, eps 0.02, speed 96.33 f/s
+1618876: done 736 games, mean reward 12.670, eps 0.02, speed 96.56 f/s
+1620758: done 737 games, mean reward 12.730, eps 0.02, speed 96.88 f/s
+1623736: done 738 games, mean reward 12.650, eps 0.02, speed 95.76 f/s
+1625636: done 739 games, mean reward 12.690, eps 0.02, speed 96.35 f/s
+1627781: done 740 games, mean reward 12.730, eps 0.02, speed 97.03 f/s
+1630466: done 741 games, mean reward 12.710, eps 0.02, speed 96.84 f/s
+1632845: done 742 games, mean reward 12.710, eps 0.02, speed 97.03 f/s
+1634621: done 743 games, mean reward 12.790, eps 0.02, speed 96.51 f/s
+1636543: done 744 games, mean reward 12.910, eps 0.02, speed 96.90 f/s
+1638584: done 745 games, mean reward 12.940, eps 0.02, speed 96.79 f/s
+1640969: done 746 games, mean reward 13.000, eps 0.02, speed 96.46 f/s
+1643156: done 747 games, mean reward 12.910, eps 0.02, speed 96.62 f/s
+1646147: done 748 games, mean reward 12.720, eps 0.02, speed 96.89 f/s
+1648299: done 749 games, mean reward 12.730, eps 0.02, speed 97.06 f/s
+1650240: done 750 games, mean reward 12.990, eps 0.02, speed 96.70 f/s
+1652366: done 751 games, mean reward 13.030, eps 0.02, speed 96.88 f/s
+1654937: done 752 games, mean reward 12.840, eps 0.02, speed 95.46 f/s
+1657613: done 753 games, mean reward 12.810, eps 0.02, speed 94.51 f/s
+1660441: done 754 games, mean reward 12.680, eps 0.02, speed 92.30 f/s
+1663049: done 755 games, mean reward 12.490, eps 0.02, speed 94.73 f/s
+1665161: done 756 games, mean reward 12.490, eps 0.02, speed 96.22 f/s
+1667568: done 757 games, mean reward 12.440, eps 0.02, speed 96.70 f/s
+1670236: done 758 games, mean reward 12.390, eps 0.02, speed 97.05 f/s
+1672257: done 759 games, mean reward 12.450, eps 0.02, speed 96.16 f/s
+1674280: done 760 games, mean reward 12.430, eps 0.02, speed 96.85 f/s
+1676321: done 761 games, mean reward 12.360, eps 0.02, speed 97.29 f/s
+1678366: done 762 games, mean reward 12.390, eps 0.02, speed 97.11 f/s
+1680553: done 763 games, mean reward 12.280, eps 0.02, speed 96.59 f/s
+1682563: done 764 games, mean reward 12.280, eps 0.02, speed 95.60 f/s
+1684501: done 765 games, mean reward 12.320, eps 0.02, speed 96.00 f/s
+1687459: done 766 games, mean reward 12.240, eps 0.02, speed 96.68 f/s
+1689509: done 767 games, mean reward 12.360, eps 0.02, speed 96.46 f/s
+1691188: done 768 games, mean reward 12.380, eps 0.02, speed 96.78 f/s
+1693031: done 769 games, mean reward 12.410, eps 0.02, speed 96.89 f/s
+1694815: done 770 games, mean reward 12.390, eps 0.02, speed 96.71 f/s
+1696629: done 771 games, mean reward 12.370, eps 0.02, speed 96.60 f/s
+1698810: done 772 games, mean reward 12.310, eps 0.02, speed 97.30 f/s
+1700991: done 773 games, mean reward 12.300, eps 0.02, speed 96.94 f/s
+1702872: done 774 games, mean reward 12.370, eps 0.02, speed 97.30 f/s
+1705281: done 775 games, mean reward 12.380, eps 0.02, speed 96.67 f/s
+1708174: done 776 games, mean reward 12.440, eps 0.02, speed 97.16 f/s
+1710531: done 777 games, mean reward 12.360, eps 0.02, speed 97.13 f/s
+1712693: done 778 games, mean reward 12.310, eps 0.02, speed 94.88 f/s
+1714324: done 779 games, mean reward 12.380, eps 0.02, speed 96.55 f/s
+1716133: done 780 games, mean reward 12.380, eps 0.02, speed 97.29 f/s
+1718385: done 781 games, mean reward 12.360, eps 0.02, speed 96.94 f/s
+1721285: done 782 games, mean reward 12.160, eps 0.02, speed 96.79 f/s
+1722595: done 783 games, mean reward 11.810, eps 0.02, speed 97.30 f/s
+1724639: done 784 games, mean reward 11.820, eps 0.02, speed 97.09 f/s
+1726566: done 785 games, mean reward 11.800, eps 0.02, speed 97.16 f/s
+1728860: done 786 games, mean reward 11.730, eps 0.02, speed 97.39 f/s
+1730877: done 787 games, mean reward 11.670, eps 0.02, speed 97.24 f/s
+1732737: done 788 games, mean reward 11.740, eps 0.02, speed 97.13 f/s
+1734535: done 789 games, mean reward 11.730, eps 0.02, speed 96.79 f/s
+1736311: done 790 games, mean reward 11.840, eps 0.02, speed 97.06 f/s
+1738206: done 791 games, mean reward 11.850, eps 0.02, speed 97.13 f/s
+1740195: done 792 games, mean reward 11.820, eps 0.02, speed 96.85 f/s
+1742455: done 793 games, mean reward 11.740, eps 0.02, speed 95.75 f/s
+1745912: done 794 games, mean reward 11.940, eps 0.02, speed 96.23 f/s
+1748158: done 795 games, mean reward 12.130, eps 0.02, speed 97.10 f/s
+1751165: done 796 games, mean reward 11.970, eps 0.02, speed 96.81 f/s
+1754353: done 797 games, mean reward 11.850, eps 0.02, speed 96.81 f/s
+1756409: done 798 games, mean reward 11.880, eps 0.02, speed 96.97 f/s
+1758350: done 799 games, mean reward 11.990, eps 0.02, speed 96.36 f/s
+1760262: done 800 games, mean reward 11.970, eps 0.02, speed 97.08 f/s
+1762161: done 801 games, mean reward 12.050, eps 0.02, speed 96.78 f/s
+1763968: done 802 games, mean reward 12.090, eps 0.02, speed 97.25 f/s
+1766123: done 803 games, mean reward 12.060, eps 0.02, speed 96.51 f/s
+1768340: done 804 games, mean reward 11.990, eps 0.02, speed 97.28 f/s
+1770592: done 805 games, mean reward 11.960, eps 0.02, speed 96.91 f/s
+1772847: done 806 games, mean reward 11.990, eps 0.02, speed 96.06 f/s
+1774561: done 807 games, mean reward 12.110, eps 0.02, speed 96.55 f/s
+1776528: done 808 games, mean reward 12.130, eps 0.02, speed 97.10 f/s
+1778290: done 809 games, mean reward 12.130, eps 0.02, speed 96.80 f/s
+1780130: done 810 games, mean reward 12.130, eps 0.02, speed 96.06 f/s
+1781910: done 811 games, mean reward 12.130, eps 0.02, speed 96.03 f/s
+1783931: done 812 games, mean reward 12.130, eps 0.02, speed 96.89 f/s
+1785848: done 813 games, mean reward 12.310, eps 0.02, speed 96.81 f/s
+1788050: done 814 games, mean reward 12.370, eps 0.02, speed 96.61 f/s
+1789819: done 815 games, mean reward 12.520, eps 0.02, speed 96.28 f/s
+1792785: done 816 games, mean reward 12.460, eps 0.02, speed 96.81 f/s
+1794759: done 817 games, mean reward 12.480, eps 0.02, speed 97.18 f/s
+1797199: done 818 games, mean reward 12.530, eps 0.02, speed 96.17 f/s
+1799554: done 819 games, mean reward 12.490, eps 0.02, speed 97.12 f/s
+1801457: done 820 games, mean reward 12.520, eps 0.02, speed 96.36 f/s
+1803679: done 821 games, mean reward 12.570, eps 0.02, speed 95.90 f/s
+1805646: done 822 games, mean reward 12.750, eps 0.02, speed 95.01 f/s
+1808101: done 823 games, mean reward 12.830, eps 0.02, speed 96.34 f/s
+1810454: done 824 games, mean reward 12.920, eps 0.02, speed 96.47 f/s
+1812364: done 825 games, mean reward 13.050, eps 0.02, speed 96.68 f/s
+1814739: done 826 games, mean reward 12.970, eps 0.02, speed 96.74 f/s
+1816521: done 827 games, mean reward 13.010, eps 0.02, speed 96.62 f/s
+1818581: done 828 games, mean reward 13.190, eps 0.02, speed 97.03 f/s
+1820859: done 829 games, mean reward 13.320, eps 0.02, speed 96.61 f/s
+1823837: done 830 games, mean reward 13.220, eps 0.02, speed 96.98 f/s
+1826988: done 831 games, mean reward 13.090, eps 0.02, speed 96.64 f/s
+1828885: done 832 games, mean reward 13.090, eps 0.02, speed 96.22 f/s
+1831186: done 833 games, mean reward 13.110, eps 0.02, speed 96.30 f/s
+1833766: done 834 games, mean reward 13.020, eps 0.02, speed 95.88 f/s
+1835631: done 835 games, mean reward 13.010, eps 0.02, speed 96.52 f/s
+1837793: done 836 games, mean reward 13.000, eps 0.02, speed 96.51 f/s
+1839599: done 837 games, mean reward 13.000, eps 0.02, speed 96.70 f/s
+1841942: done 838 games, mean reward 13.060, eps 0.02, speed 96.94 f/s
+1843765: done 839 games, mean reward 13.070, eps 0.02, speed 96.30 f/s
+1845391: done 840 games, mean reward 13.130, eps 0.02, speed 97.00 f/s
+1847564: done 841 games, mean reward 13.210, eps 0.02, speed 96.69 f/s
+1849411: done 842 games, mean reward 13.250, eps 0.02, speed 96.69 f/s
+1851072: done 843 games, mean reward 13.260, eps 0.02, speed 96.30 f/s
+1853184: done 844 games, mean reward 13.230, eps 0.02, speed 96.56 f/s
+1855160: done 845 games, mean reward 13.260, eps 0.02, speed 96.88 f/s
+1857477: done 846 games, mean reward 13.240, eps 0.02, speed 96.64 f/s
+1860160: done 847 games, mean reward 13.210, eps 0.02, speed 96.14 f/s
+1862159: done 848 games, mean reward 13.380, eps 0.02, speed 96.38 f/s
+1864704: done 849 games, mean reward 13.340, eps 0.02, speed 95.83 f/s
+1866958: done 850 games, mean reward 13.310, eps 0.02, speed 96.39 f/s
+1869736: done 851 games, mean reward 13.210, eps 0.02, speed 96.78 f/s
+1872758: done 852 games, mean reward 13.340, eps 0.02, speed 96.73 f/s
+1876252: done 853 games, mean reward 13.290, eps 0.02, speed 96.45 f/s
+1878774: done 854 games, mean reward 13.320, eps 0.02, speed 91.09 f/s
+1880928: done 855 games, mean reward 13.500, eps 0.02, speed 92.71 f/s
+1882741: done 856 games, mean reward 13.550, eps 0.02, speed 93.76 f/s
+1885386: done 857 games, mean reward 13.550, eps 0.02, speed 96.63 f/s
+1887624: done 858 games, mean reward 13.610, eps 0.02, speed 96.89 f/s
+1889854: done 859 games, mean reward 13.600, eps 0.02, speed 95.79 f/s
+1893029: done 860 games, mean reward 13.490, eps 0.02, speed 95.70 f/s
+1895811: done 861 games, mean reward 13.430, eps 0.02, speed 96.99 f/s
+1898575: done 862 games, mean reward 13.390, eps 0.02, speed 96.37 f/s
+1901296: done 863 games, mean reward 13.210, eps 0.02, speed 96.85 f/s
+1904757: done 864 games, mean reward 13.060, eps 0.02, speed 96.60 f/s
+1906722: done 865 games, mean reward 13.060, eps 0.02, speed 96.06 f/s
+1908777: done 866 games, mean reward 13.150, eps 0.02, speed 96.26 f/s
+1911123: done 867 games, mean reward 13.090, eps 0.02, speed 96.50 f/s
+1912874: done 868 games, mean reward 13.080, eps 0.02, speed 96.20 f/s
+1914661: done 869 games, mean reward 13.080, eps 0.02, speed 96.45 f/s
+1916562: done 870 games, mean reward 13.060, eps 0.02, speed 96.84 f/s
+1918931: done 871 games, mean reward 13.040, eps 0.02, speed 96.07 f/s
+1920763: done 872 games, mean reward 13.080, eps 0.02, speed 96.00 f/s
+1922553: done 873 games, mean reward 13.130, eps 0.02, speed 95.31 f/s
+1924617: done 874 games, mean reward 13.100, eps 0.02, speed 95.66 f/s
+1927276: done 875 games, mean reward 13.120, eps 0.02, speed 96.64 f/s
+1929555: done 876 games, mean reward 13.220, eps 0.02, speed 96.38 f/s
+1931391: done 877 games, mean reward 13.270, eps 0.02, speed 96.74 f/s
+1933070: done 878 games, mean reward 13.350, eps 0.02, speed 96.75 f/s
+1935276: done 879 games, mean reward 13.290, eps 0.02, speed 96.92 f/s
+1937051: done 880 games, mean reward 13.280, eps 0.02, speed 96.56 f/s
+1939352: done 881 games, mean reward 13.290, eps 0.02, speed 97.04 f/s
+1942214: done 882 games, mean reward 13.370, eps 0.02, speed 97.14 f/s
+1944154: done 883 games, mean reward 13.710, eps 0.02, speed 96.41 f/s
+1946220: done 884 games, mean reward 13.700, eps 0.02, speed 96.60 f/s
+1948484: done 885 games, mean reward 13.670, eps 0.02, speed 96.19 f/s
+1950400: done 886 games, mean reward 13.720, eps 0.02, speed 96.80 f/s
+1953391: done 887 games, mean reward 13.600, eps 0.02, speed 95.58 f/s
+1955421: done 888 games, mean reward 13.590, eps 0.02, speed 96.99 f/s
+1957733: done 889 games, mean reward 13.560, eps 0.02, speed 97.18 f/s
+1959670: done 890 games, mean reward 13.520, eps 0.02, speed 96.73 f/s
+1962441: done 891 games, mean reward 13.430, eps 0.02, speed 96.92 f/s
+1964930: done 892 games, mean reward 13.400, eps 0.02, speed 96.80 f/s
+1967475: done 893 games, mean reward 13.370, eps 0.02, speed 96.65 f/s
+1969139: done 894 games, mean reward 13.580, eps 0.02, speed 96.91 f/s
+1971398: done 895 games, mean reward 13.590, eps 0.02, speed 97.21 f/s
+1974156: done 896 games, mean reward 13.660, eps 0.02, speed 97.09 f/s
+1976629: done 897 games, mean reward 13.690, eps 0.02, speed 96.85 f/s
+1978982: done 898 games, mean reward 13.660, eps 0.02, speed 96.34 f/s
+1981255: done 899 games, mean reward 13.590, eps 0.02, speed 97.03 f/s
+1983515: done 900 games, mean reward 13.560, eps 0.02, speed 95.74 f/s
+1985407: done 901 games, mean reward 13.560, eps 0.02, speed 97.23 f/s
+1988027: done 902 games, mean reward 13.460, eps 0.02, speed 96.91 f/s
+1990277: done 903 games, mean reward 13.430, eps 0.02, speed 96.59 f/s
+1992071: done 904 games, mean reward 13.480, eps 0.02, speed 96.83 f/s
+1993957: done 905 games, mean reward 13.510, eps 0.02, speed 97.06 f/s
+1996081: done 906 games, mean reward 13.560, eps 0.02, speed 97.25 f/s
+1998291: done 907 games, mean reward 13.530, eps 0.02, speed 97.18 f/s
+2000667: done 908 games, mean reward 13.500, eps 0.02, speed 96.93 f/s
+2002981: done 909 games, mean reward 13.460, eps 0.02, speed 97.27 f/s
+2004929: done 910 games, mean reward 13.460, eps 0.02, speed 97.35 f/s
+2007032: done 911 games, mean reward 13.440, eps 0.02, speed 96.45 f/s
+2009232: done 912 games, mean reward 13.400, eps 0.02, speed 97.09 f/s
+2011187: done 913 games, mean reward 13.400, eps 0.02, speed 96.62 f/s
+2013365: done 914 games, mean reward 13.380, eps 0.02, speed 95.34 f/s
+2015511: done 915 games, mean reward 13.310, eps 0.02, speed 97.01 f/s
+2017443: done 916 games, mean reward 13.190, eps 0.02, speed 97.23 f/s
+2019361: done 917 games, mean reward 13.220, eps 0.02, speed 96.83 f/s
+2021128: done 918 games, mean reward 13.350, eps 0.02, speed 97.02 f/s
+2023644: done 919 games, mean reward 13.320, eps 0.02, speed 96.38 f/s
+2025817: done 920 games, mean reward 13.300, eps 0.02, speed 97.04 f/s
+2027527: done 921 games, mean reward 13.350, eps 0.02, speed 96.71 f/s
+2029314: done 922 games, mean reward 13.360, eps 0.02, speed 96.59 f/s
+2031175: done 923 games, mean reward 13.420, eps 0.02, speed 96.29 f/s
+2033547: done 924 games, mean reward 13.390, eps 0.02, speed 96.80 f/s
+2035817: done 925 games, mean reward 13.330, eps 0.02, speed 96.78 f/s
+2037602: done 926 games, mean reward 13.400, eps 0.02, speed 95.77 f/s
+2040378: done 927 games, mean reward 13.290, eps 0.02, speed 96.79 f/s
+2042169: done 928 games, mean reward 13.320, eps 0.02, speed 95.98 f/s
+2045308: done 929 games, mean reward 13.190, eps 0.02, speed 94.75 f/s
+2047197: done 930 games, mean reward 13.310, eps 0.02, speed 96.67 f/s
+2049041: done 931 games, mean reward 13.460, eps 0.02, speed 97.01 f/s
+2051174: done 932 games, mean reward 13.430, eps 0.02, speed 96.56 f/s
+2053354: done 933 games, mean reward 13.450, eps 0.02, speed 96.19 f/s
+2055908: done 934 games, mean reward 13.450, eps 0.02, speed 96.47 f/s
+2057714: done 935 games, mean reward 13.450, eps 0.02, speed 96.46 f/s
+2060017: done 936 games, mean reward 13.430, eps 0.02, speed 96.63 f/s
+2061786: done 937 games, mean reward 13.450, eps 0.02, speed 96.16 f/s
+2063783: done 938 games, mean reward 13.500, eps 0.02, speed 96.47 f/s
+2066623: done 939 games, mean reward 13.460, eps 0.02, speed 96.03 f/s
+2069043: done 940 games, mean reward 13.370, eps 0.02, speed 95.97 f/s
+2071113: done 941 games, mean reward 13.360, eps 0.02, speed 96.41 f/s
+2072739: done 942 games, mean reward 13.390, eps 0.02, speed 95.00 f/s
+2074568: done 943 games, mean reward 13.370, eps 0.02, speed 96.79 f/s
+2076618: done 944 games, mean reward 13.390, eps 0.02, speed 96.21 f/s
+2079087: done 945 games, mean reward 13.330, eps 0.02, speed 97.02 f/s
+2081277: done 946 games, mean reward 13.400, eps 0.02, speed 96.88 f/s
+2083032: done 947 games, mean reward 13.520, eps 0.02, speed 96.38 f/s
+2085425: done 948 games, mean reward 13.480, eps 0.02, speed 96.31 f/s
+2087967: done 949 games, mean reward 13.470, eps 0.02, speed 96.85 f/s
+2089724: done 950 games, mean reward 13.520, eps 0.02, speed 96.77 f/s
+2091597: done 951 games, mean reward 13.670, eps 0.02, speed 96.57 f/s
+2093694: done 952 games, mean reward 13.760, eps 0.02, speed 96.77 f/s
+2095509: done 953 games, mean reward 13.940, eps 0.02, speed 96.22 f/s
+2097419: done 954 games, mean reward 14.030, eps 0.02, speed 90.37 f/s
+2099605: done 955 games, mean reward 13.800, eps 0.02, speed 92.76 f/s
+2102047: done 956 games, mean reward 13.720, eps 0.02, speed 93.32 f/s
+2104985: done 957 games, mean reward 13.650, eps 0.02, speed 96.30 f/s
+2107468: done 958 games, mean reward 13.660, eps 0.02, speed 96.42 f/s
+2109303: done 959 games, mean reward 13.710, eps 0.02, speed 97.00 f/s
+2111794: done 960 games, mean reward 13.780, eps 0.02, speed 96.87 f/s
+2113515: done 961 games, mean reward 13.910, eps 0.02, speed 97.09 f/s
+2116352: done 962 games, mean reward 13.960, eps 0.02, speed 96.55 f/s
+2118829: done 963 games, mean reward 14.170, eps 0.02, speed 97.13 f/s
+2121800: done 964 games, mean reward 14.270, eps 0.02, speed 97.13 f/s
+2123669: done 965 games, mean reward 14.290, eps 0.02, speed 96.55 f/s
+Best mean reward updated 14.280 -> 14.290, model saved
+2126010: done 966 games, mean reward 14.300, eps 0.02, speed 96.51 f/s
+Best mean reward updated 14.290 -> 14.300, model saved
+2129395: done 967 games, mean reward 14.240, eps 0.02, speed 96.82 f/s
+2131235: done 968 games, mean reward 14.230, eps 0.02, speed 96.87 f/s
+2133666: done 969 games, mean reward 14.200, eps 0.02, speed 95.52 f/s
+2135917: done 970 games, mean reward 14.200, eps 0.02, speed 96.97 f/s
+2138023: done 971 games, mean reward 14.190, eps 0.02, speed 96.73 f/s
+2140812: done 972 games, mean reward 14.130, eps 0.02, speed 96.67 f/s
+2143946: done 973 games, mean reward 13.930, eps 0.02, speed 97.10 f/s
+2146711: done 974 games, mean reward 13.890, eps 0.02, speed 96.67 f/s
+2149052: done 975 games, mean reward 13.900, eps 0.02, speed 97.05 f/s
+2151431: done 976 games, mean reward 13.870, eps 0.02, speed 96.72 f/s
+2154199: done 977 games, mean reward 13.790, eps 0.02, speed 96.41 f/s
+2157292: done 978 games, mean reward 13.650, eps 0.02, speed 96.92 f/s
+2159255: done 979 games, mean reward 13.680, eps 0.02, speed 97.03 f/s
+2162231: done 980 games, mean reward 13.570, eps 0.02, speed 95.60 f/s
+2164034: done 981 games, mean reward 13.650, eps 0.02, speed 96.23 f/s
+2165866: done 982 games, mean reward 13.790, eps 0.02, speed 97.00 f/s
+2167679: done 983 games, mean reward 13.810, eps 0.02, speed 96.75 f/s
+2169369: done 984 games, mean reward 13.850, eps 0.02, speed 95.98 f/s
+2171586: done 985 games, mean reward 13.860, eps 0.02, speed 97.04 f/s
+2173546: done 986 games, mean reward 13.850, eps 0.02, speed 97.33 f/s
+2175782: done 987 games, mean reward 13.960, eps 0.02, speed 96.98 f/s
+2177602: done 988 games, mean reward 13.990, eps 0.02, speed 96.48 f/s
+2179825: done 989 games, mean reward 13.950, eps 0.02, speed 97.12 f/s
+2181820: done 990 games, mean reward 13.950, eps 0.02, speed 96.90 f/s
+2183880: done 991 games, mean reward 14.030, eps 0.02, speed 96.15 f/s
+2185933: done 992 games, mean reward 14.060, eps 0.02, speed 96.47 f/s
+2188030: done 993 games, mean reward 14.150, eps 0.02, speed 96.89 f/s
+2190087: done 994 games, mean reward 14.110, eps 0.02, speed 96.74 f/s
+2191836: done 995 games, mean reward 14.170, eps 0.02, speed 95.95 f/s
+2193585: done 996 games, mean reward 14.270, eps 0.02, speed 95.35 f/s
+2195392: done 997 games, mean reward 14.390, eps 0.02, speed 96.73 f/s
+Best mean reward updated 14.300 -> 14.390, model saved
+2197022: done 998 games, mean reward 14.490, eps 0.02, speed 96.63 f/s
+Best mean reward updated 14.390 -> 14.490, model saved
+2198652: done 999 games, mean reward 14.580, eps 0.02, speed 95.88 f/s
+Best mean reward updated 14.490 -> 14.580, model saved
+2200741: done 1000 games, mean reward 14.580, eps 0.02, speed 96.29 f/s
+2203470: done 1001 games, mean reward 14.460, eps 0.02, speed 96.75 f/s
+2205825: done 1002 games, mean reward 14.500, eps 0.02, speed 96.69 f/s
+2208215: done 1003 games, mean reward 14.490, eps 0.02, speed 95.94 f/s
+2210492: done 1004 games, mean reward 14.380, eps 0.02, speed 96.48 f/s
+2213470: done 1005 games, mean reward 14.240, eps 0.02, speed 96.26 f/s
+2215500: done 1006 games, mean reward 14.250, eps 0.02, speed 96.41 f/s
+2217685: done 1007 games, mean reward 14.220, eps 0.02, speed 96.49 f/s
+2219461: done 1008 games, mean reward 14.280, eps 0.02, speed 96.64 f/s
+2221218: done 1009 games, mean reward 14.330, eps 0.02, speed 96.51 f/s
+2223052: done 1010 games, mean reward 14.340, eps 0.02, speed 94.96 f/s
+2225507: done 1011 games, mean reward 14.310, eps 0.02, speed 96.52 f/s
+2227596: done 1012 games, mean reward 14.340, eps 0.02, speed 96.10 f/s
+2229988: done 1013 games, mean reward 14.290, eps 0.02, speed 96.80 f/s
+2231655: done 1014 games, mean reward 14.360, eps 0.02, speed 96.30 f/s
+2234265: done 1015 games, mean reward 14.350, eps 0.02, speed 96.84 f/s
+2236273: done 1016 games, mean reward 14.620, eps 0.02, speed 96.68 f/s
+Best mean reward updated 14.580 -> 14.620, model saved
+2238671: done 1017 games, mean reward 14.550, eps 0.02, speed 96.43 f/s
+2240637: done 1018 games, mean reward 14.520, eps 0.02, speed 96.38 f/s
+2242537: done 1019 games, mean reward 14.630, eps 0.02, speed 96.01 f/s
+Best mean reward updated 14.620 -> 14.630, model saved
+2244434: done 1020 games, mean reward 14.650, eps 0.02, speed 96.50 f/s
+Best mean reward updated 14.630 -> 14.650, model saved
+2246310: done 1021 games, mean reward 14.650, eps 0.02, speed 96.20 f/s
+2248904: done 1022 games, mean reward 14.610, eps 0.02, speed 96.66 f/s
+2250776: done 1023 games, mean reward 14.610, eps 0.02, speed 96.34 f/s
+2252559: done 1024 games, mean reward 14.690, eps 0.02, speed 94.93 f/s
+Best mean reward updated 14.650 -> 14.690, model saved
+2255599: done 1025 games, mean reward 14.590, eps 0.02, speed 96.37 f/s
+2258892: done 1026 games, mean reward 14.510, eps 0.02, speed 96.64 f/s
+2260727: done 1027 games, mean reward 14.620, eps 0.02, speed 96.63 f/s
+2262446: done 1028 games, mean reward 14.620, eps 0.02, speed 95.64 f/s
+2265190: done 1029 games, mean reward 14.740, eps 0.02, speed 96.58 f/s
+Best mean reward updated 14.690 -> 14.740, model saved
+2267352: done 1030 games, mean reward 14.700, eps 0.02, speed 96.23 f/s
+2269522: done 1031 games, mean reward 14.650, eps 0.02, speed 96.51 f/s
+2272206: done 1032 games, mean reward 14.590, eps 0.02, speed 95.90 f/s
+2274673: done 1033 games, mean reward 14.520, eps 0.02, speed 96.53 f/s
+2276434: done 1034 games, mean reward 14.630, eps 0.02, speed 96.37 f/s
+2278925: done 1035 games, mean reward 14.560, eps 0.02, speed 95.48 f/s
+2280773: done 1036 games, mean reward 14.610, eps 0.02, speed 96.23 f/s
+2282585: done 1037 games, mean reward 14.580, eps 0.02, speed 94.30 f/s
+2284789: done 1038 games, mean reward 14.560, eps 0.02, speed 95.99 f/s
+2286893: done 1039 games, mean reward 14.570, eps 0.02, speed 95.87 f/s
+2288712: done 1040 games, mean reward 14.640, eps 0.02, speed 96.21 f/s
+2290484: done 1041 games, mean reward 14.670, eps 0.02, speed 95.93 f/s
+2292360: done 1042 games, mean reward 14.630, eps 0.02, speed 96.23 f/s
+2294197: done 1043 games, mean reward 14.630, eps 0.02, speed 95.19 f/s
+2296891: done 1044 games, mean reward 14.520, eps 0.02, speed 96.46 f/s
+2298764: done 1045 games, mean reward 14.590, eps 0.02, speed 96.21 f/s
+2300861: done 1046 games, mean reward 14.580, eps 0.02, speed 95.71 f/s
+2302613: done 1047 games, mean reward 14.590, eps 0.02, speed 95.74 f/s
+2304388: done 1048 games, mean reward 14.680, eps 0.02, speed 96.17 f/s
+2306287: done 1049 games, mean reward 14.760, eps 0.02, speed 96.22 f/s
+Best mean reward updated 14.740 -> 14.760, model saved
+2307977: done 1050 games, mean reward 14.780, eps 0.02, speed 95.47 f/s
+Best mean reward updated 14.760 -> 14.780, model saved
+2309842: done 1051 games, mean reward 14.780, eps 0.02, speed 96.03 f/s
+2311965: done 1052 games, mean reward 14.800, eps 0.02, speed 94.80 f/s
+Best mean reward updated 14.780 -> 14.800, model saved
+2314157: done 1053 games, mean reward 14.750, eps 0.02, speed 96.06 f/s
+2316005: done 1054 games, mean reward 14.770, eps 0.02, speed 88.76 f/s
+2318106: done 1055 games, mean reward 15.010, eps 0.02, speed 92.65 f/s
+Best mean reward updated 14.800 -> 15.010, model saved
+2320009: done 1056 games, mean reward 15.070, eps 0.02, speed 91.43 f/s
+Best mean reward updated 15.010 -> 15.070, model saved
+2321696: done 1057 games, mean reward 15.220, eps 0.02, speed 95.42 f/s
+Best mean reward updated 15.070 -> 15.220, model saved
+2323764: done 1058 games, mean reward 15.210, eps 0.02, speed 95.75 f/s
+2325779: done 1059 games, mean reward 15.180, eps 0.02, speed 96.10 f/s
+2327831: done 1060 games, mean reward 15.230, eps 0.02, speed 96.10 f/s
+Best mean reward updated 15.220 -> 15.230, model saved
+2329906: done 1061 games, mean reward 15.170, eps 0.02, speed 95.91 f/s
+2332032: done 1062 games, mean reward 15.140, eps 0.02, speed 95.85 f/s
+2334345: done 1063 games, mean reward 15.120, eps 0.02, speed 96.36 f/s
+2336540: done 1064 games, mean reward 15.170, eps 0.02, speed 96.21 f/s
+2338433: done 1065 games, mean reward 15.160, eps 0.02, speed 96.42 f/s
+2340251: done 1066 games, mean reward 15.200, eps 0.02, speed 95.58 f/s
+2342183: done 1067 games, mean reward 15.350, eps 0.02, speed 94.68 f/s
+Best mean reward updated 15.230 -> 15.350, model saved
+2344118: done 1068 games, mean reward 15.350, eps 0.02, speed 96.35 f/s
+2345745: done 1069 games, mean reward 15.410, eps 0.02, speed 96.35 f/s
+Best mean reward updated 15.350 -> 15.410, model saved
+2348324: done 1070 games, mean reward 15.340, eps 0.02, speed 95.94 f/s
+2350629: done 1071 games, mean reward 15.300, eps 0.02, speed 96.47 f/s
+2352798: done 1072 games, mean reward 15.320, eps 0.02, speed 96.58 f/s
+2355500: done 1073 games, mean reward 15.420, eps 0.02, speed 95.82 f/s
+Best mean reward updated 15.410 -> 15.420, model saved
+2357761: done 1074 games, mean reward 15.430, eps 0.02, speed 96.47 f/s
+Best mean reward updated 15.420 -> 15.430, model saved
+2360233: done 1075 games, mean reward 15.430, eps 0.02, speed 95.87 f/s
+2363030: done 1076 games, mean reward 15.350, eps 0.02, speed 96.07 f/s
+2365520: done 1077 games, mean reward 15.360, eps 0.02, speed 96.73 f/s
+2368510: done 1078 games, mean reward 15.340, eps 0.02, speed 96.69 f/s
+2370919: done 1079 games, mean reward 15.290, eps 0.02, speed 95.33 f/s
+2373032: done 1080 games, mean reward 15.360, eps 0.02, speed 95.64 f/s
+2375135: done 1081 games, mean reward 15.330, eps 0.02, speed 96.51 f/s
+2377031: done 1082 games, mean reward 15.320, eps 0.02, speed 96.42 f/s
+2379011: done 1083 games, mean reward 15.310, eps 0.02, speed 96.19 f/s
+2380999: done 1084 games, mean reward 15.280, eps 0.02, speed 96.30 f/s
+2383441: done 1085 games, mean reward 15.270, eps 0.02, speed 96.23 f/s
+2385751: done 1086 games, mean reward 15.240, eps 0.02, speed 95.87 f/s
+2388328: done 1087 games, mean reward 15.210, eps 0.02, speed 96.31 f/s
+2390509: done 1088 games, mean reward 15.160, eps 0.02, speed 96.37 f/s
+2392528: done 1089 games, mean reward 15.210, eps 0.02, speed 96.26 f/s
+2395244: done 1090 games, mean reward 15.090, eps 0.02, speed 96.29 f/s
+2398617: done 1091 games, mean reward 14.950, eps 0.02, speed 96.63 f/s
+2400973: done 1092 games, mean reward 14.920, eps 0.02, speed 95.13 f/s
+2402966: done 1093 games, mean reward 14.920, eps 0.02, speed 96.51 f/s
+2405037: done 1094 games, mean reward 14.920, eps 0.02, speed 96.45 f/s
+2407550: done 1095 games, mean reward 14.830, eps 0.02, speed 96.46 f/s
+2409955: done 1096 games, mean reward 14.780, eps 0.02, speed 95.94 f/s
+2411857: done 1097 games, mean reward 14.780, eps 0.02, speed 96.44 f/s
+2413954: done 1098 games, mean reward 14.740, eps 0.02, speed 96.57 f/s
+2416402: done 1099 games, mean reward 14.650, eps 0.02, speed 96.04 f/s
+2418556: done 1100 games, mean reward 14.650, eps 0.02, speed 95.74 f/s
+2420322: done 1101 games, mean reward 14.780, eps 0.02, speed 96.26 f/s
+2422008: done 1102 games, mean reward 14.870, eps 0.02, speed 96.39 f/s
+2424178: done 1103 games, mean reward 14.900, eps 0.02, speed 96.01 f/s
+2427378: done 1104 games, mean reward 14.810, eps 0.02, speed 96.63 f/s
+2429265: done 1105 games, mean reward 14.930, eps 0.02, speed 96.54 f/s
+2431447: done 1106 games, mean reward 14.920, eps 0.02, speed 94.92 f/s
+2434362: done 1107 games, mean reward 14.810, eps 0.02, speed 96.11 f/s
+2437636: done 1108 games, mean reward 14.600, eps 0.02, speed 96.57 f/s
+2439684: done 1109 games, mean reward 14.570, eps 0.02, speed 96.30 f/s
+2441728: done 1110 games, mean reward 14.530, eps 0.02, speed 96.15 f/s
+2443568: done 1111 games, mean reward 14.580, eps 0.02, speed 96.41 f/s
+2445543: done 1112 games, mean reward 14.580, eps 0.02, speed 96.81 f/s
+2447585: done 1113 games, mean reward 14.620, eps 0.02, speed 95.53 f/s
+2449280: done 1114 games, mean reward 14.630, eps 0.02, speed 95.98 f/s
+2451236: done 1115 games, mean reward 14.660, eps 0.02, speed 96.76 f/s
+2453382: done 1116 games, mean reward 14.620, eps 0.02, speed 96.08 f/s
+2455719: done 1117 games, mean reward 14.650, eps 0.02, speed 95.86 f/s
+2457898: done 1118 games, mean reward 14.580, eps 0.02, speed 96.30 f/s
+2459683: done 1119 games, mean reward 14.560, eps 0.02, speed 96.38 f/s
+2461494: done 1120 games, mean reward 14.570, eps 0.02, speed 94.74 f/s
+2463248: done 1121 games, mean reward 14.560, eps 0.02, speed 95.47 f/s
+2465920: done 1122 games, mean reward 14.490, eps 0.02, speed 96.25 f/s
+2467984: done 1123 games, mean reward 14.470, eps 0.02, speed 96.29 f/s
+2469649: done 1124 games, mean reward 14.470, eps 0.02, speed 96.43 f/s
+2471361: done 1125 games, mean reward 14.650, eps 0.02, speed 95.69 f/s
+2473237: done 1126 games, mean reward 14.730, eps 0.02, speed 96.27 f/s
+2475165: done 1127 games, mean reward 14.740, eps 0.02, speed 95.91 f/s
+2477100: done 1128 games, mean reward 14.710, eps 0.02, speed 95.86 f/s
+2479103: done 1129 games, mean reward 14.740, eps 0.02, speed 95.88 f/s
+2481027: done 1130 games, mean reward 14.770, eps 0.02, speed 96.44 f/s
+2483458: done 1131 games, mean reward 14.750, eps 0.02, speed 96.39 f/s
+2485434: done 1132 games, mean reward 14.850, eps 0.02, speed 95.82 f/s
+2487460: done 1133 games, mean reward 14.930, eps 0.02, speed 95.70 f/s
+2489768: done 1134 games, mean reward 14.860, eps 0.02, speed 96.22 f/s
+2492142: done 1135 games, mean reward 14.870, eps 0.02, speed 95.06 f/s
+2493925: done 1136 games, mean reward 14.890, eps 0.02, speed 95.47 f/s
+2495902: done 1137 games, mean reward 14.890, eps 0.02, speed 96.09 f/s
+2498143: done 1138 games, mean reward 14.900, eps 0.02, speed 96.29 f/s
+2500371: done 1139 games, mean reward 14.910, eps 0.02, speed 95.77 f/s
+2502125: done 1140 games, mean reward 14.910, eps 0.02, speed 95.33 f/s
+2504635: done 1141 games, mean reward 14.870, eps 0.02, speed 96.05 f/s
+2506514: done 1142 games, mean reward 14.860, eps 0.02, speed 95.35 f/s
+2508271: done 1143 games, mean reward 14.860, eps 0.02, speed 95.69 f/s
+2510223: done 1144 games, mean reward 14.970, eps 0.02, speed 95.34 f/s
+2512051: done 1145 games, mean reward 14.970, eps 0.02, speed 96.01 f/s
+2513986: done 1146 games, mean reward 14.980, eps 0.02, speed 96.04 f/s
+2515798: done 1147 games, mean reward 14.960, eps 0.02, speed 95.92 f/s
+2517464: done 1148 games, mean reward 14.950, eps 0.02, speed 95.66 f/s
+2519544: done 1149 games, mean reward 14.970, eps 0.02, speed 96.10 f/s
+2521425: done 1150 games, mean reward 14.940, eps 0.02, speed 94.43 f/s
+2523236: done 1151 games, mean reward 14.950, eps 0.02, speed 95.99 f/s
+2524920: done 1152 games, mean reward 14.990, eps 0.02, speed 95.69 f/s
+2526716: done 1153 games, mean reward 15.030, eps 0.02, speed 95.95 f/s
+2528431: done 1154 games, mean reward 15.060, eps 0.02, speed 96.16 f/s
+2530403: done 1155 games, mean reward 15.070, eps 0.02, speed 96.42 f/s
+2532445: done 1156 games, mean reward 15.080, eps 0.02, speed 96.04 f/s
+2534524: done 1157 games, mean reward 15.050, eps 0.02, speed 89.81 f/s
+2536993: done 1158 games, mean reward 15.030, eps 0.02, speed 91.34 f/s
+2539782: done 1159 games, mean reward 14.810, eps 0.02, speed 95.11 f/s
+2541750: done 1160 games, mean reward 14.830, eps 0.02, speed 95.87 f/s
+2543440: done 1161 games, mean reward 14.900, eps 0.02, speed 96.27 f/s
+2545086: done 1162 games, mean reward 14.980, eps 0.02, speed 95.91 f/s
+2546842: done 1163 games, mean reward 15.070, eps 0.02, speed 95.54 f/s
+2548677: done 1164 games, mean reward 15.080, eps 0.02, speed 95.48 f/s
+2550677: done 1165 games, mean reward 15.060, eps 0.02, speed 94.03 f/s
+2553037: done 1166 games, mean reward 14.970, eps 0.02, speed 95.58 f/s
+2554850: done 1167 games, mean reward 14.950, eps 0.02, speed 95.24 f/s
+2556587: done 1168 games, mean reward 14.970, eps 0.02, speed 95.84 f/s
+2558248: done 1169 games, mean reward 14.970, eps 0.02, speed 95.99 f/s
+2560090: done 1170 games, mean reward 15.070, eps 0.02, speed 96.16 f/s
+2562093: done 1171 games, mean reward 15.110, eps 0.02, speed 95.69 f/s
+2563937: done 1172 games, mean reward 15.140, eps 0.02, speed 95.01 f/s
+2566278: done 1173 games, mean reward 15.130, eps 0.02, speed 95.90 f/s
+2568173: done 1174 games, mean reward 15.200, eps 0.02, speed 95.87 f/s
+2569800: done 1175 games, mean reward 15.300, eps 0.02, speed 95.68 f/s
+2571549: done 1176 games, mean reward 15.450, eps 0.02, speed 95.65 f/s
+Best mean reward updated 15.430 -> 15.450, model saved
+2573976: done 1177 games, mean reward 15.470, eps 0.02, speed 95.80 f/s
+Best mean reward updated 15.450 -> 15.470, model saved
+2577114: done 1178 games, mean reward 15.440, eps 0.02, speed 95.88 f/s
+2579541: done 1179 games, mean reward 15.450, eps 0.02, speed 94.15 f/s
+2582399: done 1180 games, mean reward 15.350, eps 0.02, speed 95.83 f/s
+2584420: done 1181 games, mean reward 15.350, eps 0.02, speed 95.78 f/s
+2586966: done 1182 games, mean reward 15.250, eps 0.02, speed 95.42 f/s
+2588965: done 1183 games, mean reward 15.250, eps 0.02, speed 95.95 f/s
+2590997: done 1184 games, mean reward 15.240, eps 0.02, speed 95.56 f/s
+2592971: done 1185 games, mean reward 15.260, eps 0.02, speed 95.63 f/s
+2594978: done 1186 games, mean reward 15.280, eps 0.02, speed 95.35 f/s
+2597578: done 1187 games, mean reward 15.230, eps 0.02, speed 95.86 f/s
+2599208: done 1188 games, mean reward 15.300, eps 0.02, speed 95.78 f/s
+2601168: done 1189 games, mean reward 15.310, eps 0.02, speed 95.62 f/s
+2603209: done 1190 games, mean reward 15.430, eps 0.02, speed 95.84 f/s
+2605134: done 1191 games, mean reward 15.570, eps 0.02, speed 96.10 f/s
+Best mean reward updated 15.470 -> 15.570, model saved
+2607045: done 1192 games, mean reward 15.630, eps 0.02, speed 95.87 f/s
+Best mean reward updated 15.570 -> 15.630, model saved
+2609073: done 1193 games, mean reward 15.610, eps 0.02, speed 94.47 f/s
+2611072: done 1194 games, mean reward 15.610, eps 0.02, speed 95.70 f/s
+2613661: done 1195 games, mean reward 15.600, eps 0.02, speed 95.80 f/s
+2615324: done 1196 games, mean reward 15.660, eps 0.02, speed 95.87 f/s
+Best mean reward updated 15.630 -> 15.660, model saved
+2617330: done 1197 games, mean reward 15.640, eps 0.02, speed 95.64 f/s
+2619551: done 1198 games, mean reward 15.610, eps 0.02, speed 96.08 f/s
+2621539: done 1199 games, mean reward 15.650, eps 0.02, speed 95.73 f/s
+2623703: done 1200 games, mean reward 15.660, eps 0.02, speed 94.94 f/s
+2625524: done 1201 games, mean reward 15.670, eps 0.02, speed 95.56 f/s
+Best mean reward updated 15.660 -> 15.670, model saved
+2627576: done 1202 games, mean reward 15.640, eps 0.02, speed 95.84 f/s
+2630224: done 1203 games, mean reward 15.570, eps 0.02, speed 95.84 f/s
+2632349: done 1204 games, mean reward 15.720, eps 0.02, speed 95.41 f/s
+Best mean reward updated 15.670 -> 15.720, model saved
+2634751: done 1205 games, mean reward 15.720, eps 0.02, speed 95.64 f/s
+2637480: done 1206 games, mean reward 15.620, eps 0.02, speed 95.99 f/s
+2639238: done 1207 games, mean reward 15.780, eps 0.02, speed 93.48 f/s
+Best mean reward updated 15.720 -> 15.780, model saved
+2641132: done 1208 games, mean reward 15.980, eps 0.02, speed 94.24 f/s
+Best mean reward updated 15.780 -> 15.980, model saved
+2642876: done 1209 games, mean reward 16.010, eps 0.02, speed 97.16 f/s
+Best mean reward updated 15.980 -> 16.010, model saved
+2644814: done 1210 games, mean reward 16.030, eps 0.02, speed 97.54 f/s
+Best mean reward updated 16.010 -> 16.030, model saved
+2647171: done 1211 games, mean reward 15.980, eps 0.02, speed 97.95 f/s
+2649770: done 1212 games, mean reward 15.910, eps 0.02, speed 98.33 f/s
+2651535: done 1213 games, mean reward 15.960, eps 0.02, speed 98.58 f/s
+2653491: done 1214 games, mean reward 15.920, eps 0.02, speed 98.46 f/s
+2656341: done 1215 games, mean reward 15.870, eps 0.02, speed 98.40 f/s
+2658740: done 1216 games, mean reward 15.830, eps 0.02, speed 99.14 f/s
+2661108: done 1217 games, mean reward 15.820, eps 0.02, speed 97.41 f/s
+2663242: done 1218 games, mean reward 15.850, eps 0.02, speed 96.48 f/s
+2666110: done 1219 games, mean reward 15.740, eps 0.02, speed 95.47 f/s
+2667972: done 1220 games, mean reward 15.730, eps 0.02, speed 96.23 f/s
+2670842: done 1221 games, mean reward 15.580, eps 0.02, speed 96.65 f/s
+2673697: done 1222 games, mean reward 15.570, eps 0.02, speed 98.00 f/s
+2675412: done 1223 games, mean reward 15.620, eps 0.02, speed 97.89 f/s
+2677800: done 1224 games, mean reward 15.530, eps 0.02, speed 98.16 f/s
+2680220: done 1225 games, mean reward 15.420, eps 0.02, speed 97.64 f/s
+2683027: done 1226 games, mean reward 15.330, eps 0.02, speed 97.81 f/s
+2684927: done 1227 games, mean reward 15.310, eps 0.02, speed 97.76 f/s
+2686703: done 1228 games, mean reward 15.330, eps 0.02, speed 97.06 f/s
+2688821: done 1229 games, mean reward 15.310, eps 0.02, speed 97.69 f/s
+2690959: done 1230 games, mean reward 15.290, eps 0.02, speed 97.80 f/s
+2692682: done 1231 games, mean reward 15.380, eps 0.02, speed 97.59 f/s
+2695053: done 1232 games, mean reward 15.310, eps 0.02, speed 97.49 f/s
+2697229: done 1233 games, mean reward 15.300, eps 0.02, speed 98.14 f/s
+2698978: done 1234 games, mean reward 15.370, eps 0.02, speed 97.23 f/s
+2700835: done 1235 games, mean reward 15.420, eps 0.02, speed 97.19 f/s
+2702533: done 1236 games, mean reward 15.420, eps 0.02, speed 97.19 f/s
+2704282: done 1237 games, mean reward 15.440, eps 0.02, speed 97.66 f/s
+2706132: done 1238 games, mean reward 15.480, eps 0.02, speed 98.02 f/s
+2708140: done 1239 games, mean reward 15.480, eps 0.02, speed 98.17 f/s
+2709991: done 1240 games, mean reward 15.480, eps 0.02, speed 97.50 f/s
+2713052: done 1241 games, mean reward 15.320, eps 0.02, speed 96.94 f/s
+2715060: done 1242 games, mean reward 15.320, eps 0.02, speed 96.59 f/s
+2716927: done 1243 games, mean reward 15.050, eps 0.02, speed 97.65 f/s
+2719192: done 1244 games, mean reward 15.000, eps 0.02, speed 97.76 f/s
+2721853: done 1245 games, mean reward 14.890, eps 0.02, speed 97.95 f/s
+2723908: done 1246 games, mean reward 14.890, eps 0.02, speed 98.00 f/s
+2725833: done 1247 games, mean reward 14.870, eps 0.02, speed 97.49 f/s
+2727581: done 1248 games, mean reward 14.860, eps 0.02, speed 97.86 f/s
+2729489: done 1249 games, mean reward 14.840, eps 0.02, speed 97.22 f/s
+2731252: done 1250 games, mean reward 14.850, eps 0.02, speed 97.84 f/s
+2733253: done 1251 games, mean reward 14.820, eps 0.02, speed 97.13 f/s
+2735812: done 1252 games, mean reward 14.700, eps 0.02, speed 92.12 f/s
+2738295: done 1253 games, mean reward 14.600, eps 0.02, speed 96.36 f/s
+2740484: done 1254 games, mean reward 14.510, eps 0.02, speed 97.91 f/s
+2742802: done 1255 games, mean reward 14.440, eps 0.02, speed 97.11 f/s
+2744801: done 1256 games, mean reward 14.430, eps 0.02, speed 98.05 f/s
+2746660: done 1257 games, mean reward 14.440, eps 0.02, speed 97.96 f/s
+2748644: done 1258 games, mean reward 14.470, eps 0.02, speed 97.50 f/s
+2751114: done 1259 games, mean reward 14.630, eps 0.02, speed 97.58 f/s
+2752896: done 1260 games, mean reward 14.640, eps 0.02, speed 97.86 f/s
+2755079: done 1261 games, mean reward 14.590, eps 0.02, speed 98.31 f/s
+2757712: done 1262 games, mean reward 14.430, eps 0.02, speed 98.19 f/s
+2759850: done 1263 games, mean reward 14.370, eps 0.02, speed 97.50 f/s
+2762255: done 1264 games, mean reward 14.320, eps 0.02, speed 98.22 f/s
+2764419: done 1265 games, mean reward 14.300, eps 0.02, speed 98.13 f/s
+2766203: done 1266 games, mean reward 14.390, eps 0.02, speed 97.74 f/s
+2767900: done 1267 games, mean reward 14.410, eps 0.02, speed 97.98 f/s
+2769666: done 1268 games, mean reward 14.410, eps 0.02, speed 98.06 f/s
+2771328: done 1269 games, mean reward 14.410, eps 0.02, speed 97.73 f/s
+2773369: done 1270 games, mean reward 14.400, eps 0.02, speed 97.56 f/s
+2775977: done 1271 games, mean reward 14.310, eps 0.02, speed 98.12 f/s
+2778740: done 1272 games, mean reward 14.190, eps 0.02, speed 97.95 f/s
+2780871: done 1273 games, mean reward 14.260, eps 0.02, speed 97.78 f/s
+2783336: done 1274 games, mean reward 14.190, eps 0.02, speed 98.32 f/s
+2785207: done 1275 games, mean reward 14.160, eps 0.02, speed 97.69 f/s
+2786870: done 1276 games, mean reward 14.170, eps 0.02, speed 98.74 f/s
+2788593: done 1277 games, mean reward 14.250, eps 0.02, speed 97.83 f/s
+2790758: done 1278 games, mean reward 14.380, eps 0.02, speed 96.29 f/s
+2793011: done 1279 games, mean reward 14.390, eps 0.02, speed 98.59 f/s
+2795408: done 1280 games, mean reward 14.440, eps 0.02, speed 98.39 f/s
+2798281: done 1281 games, mean reward 14.310, eps 0.02, speed 97.79 f/s
+2800639: done 1282 games, mean reward 14.330, eps 0.02, speed 97.92 f/s
+2802562: done 1283 games, mean reward 14.320, eps 0.02, speed 97.58 f/s
+2805078: done 1284 games, mean reward 14.240, eps 0.02, speed 97.52 f/s
+2806710: done 1285 games, mean reward 14.290, eps 0.02, speed 97.88 f/s
+2808911: done 1286 games, mean reward 14.280, eps 0.02, speed 97.97 f/s
+2810804: done 1287 games, mean reward 14.410, eps 0.02, speed 97.58 f/s
+2813229: done 1288 games, mean reward 14.300, eps 0.02, speed 97.59 f/s
+2815537: done 1289 games, mean reward 14.240, eps 0.02, speed 98.10 f/s
+2817760: done 1290 games, mean reward 14.210, eps 0.02, speed 97.84 f/s
+2819471: done 1291 games, mean reward 14.250, eps 0.02, speed 97.56 f/s
+2821461: done 1292 games, mean reward 14.240, eps 0.02, speed 96.49 f/s
+2823413: done 1293 games, mean reward 14.270, eps 0.02, speed 98.33 f/s
+2825282: done 1294 games, mean reward 14.290, eps 0.02, speed 97.75 f/s
+2827769: done 1295 games, mean reward 14.310, eps 0.02, speed 97.35 f/s
+2829903: done 1296 games, mean reward 14.220, eps 0.02, speed 97.80 f/s
+2832254: done 1297 games, mean reward 14.210, eps 0.02, speed 97.17 f/s
+2834790: done 1298 games, mean reward 14.170, eps 0.02, speed 97.96 f/s
+2836573: done 1299 games, mean reward 14.200, eps 0.02, speed 97.54 f/s
+2838704: done 1300 games, mean reward 14.220, eps 0.02, speed 97.86 f/s
+2840484: done 1301 games, mean reward 14.210, eps 0.02, speed 97.48 f/s
+2842887: done 1302 games, mean reward 14.190, eps 0.02, speed 97.82 f/s
+2844772: done 1303 games, mean reward 14.300, eps 0.02, speed 97.09 f/s
+2846424: done 1304 games, mean reward 14.370, eps 0.02, speed 97.73 f/s
+2848169: done 1305 games, mean reward 14.410, eps 0.02, speed 98.03 f/s
+2850179: done 1306 games, mean reward 14.490, eps 0.02, speed 97.39 f/s
+2851844: done 1307 games, mean reward 14.500, eps 0.02, speed 95.56 f/s
+2853851: done 1308 games, mean reward 14.490, eps 0.02, speed 93.94 f/s
+2855740: done 1309 games, mean reward 14.450, eps 0.02, speed 92.60 f/s
+2858207: done 1310 games, mean reward 14.220, eps 0.02, speed 97.91 f/s
+2860316: done 1311 games, mean reward 14.240, eps 0.02, speed 96.73 f/s
+2862908: done 1312 games, mean reward 14.270, eps 0.02, speed 98.61 f/s
+2865011: done 1313 games, mean reward 14.200, eps 0.02, speed 98.38 f/s
+2867574: done 1314 games, mean reward 14.150, eps 0.02, speed 98.04 f/s
+2870338: done 1315 games, mean reward 14.120, eps 0.02, speed 98.32 f/s
+2872277: done 1316 games, mean reward 14.200, eps 0.02, speed 98.01 f/s
+2874317: done 1317 games, mean reward 14.230, eps 0.02, speed 98.15 f/s
+2876389: done 1318 games, mean reward 14.270, eps 0.02, speed 97.47 f/s
+2878572: done 1319 games, mean reward 14.370, eps 0.02, speed 97.63 f/s
+2880383: done 1320 games, mean reward 14.390, eps 0.02, speed 97.44 f/s
+2882248: done 1321 games, mean reward 14.530, eps 0.02, speed 96.30 f/s
+2884301: done 1322 games, mean reward 14.590, eps 0.02, speed 97.65 f/s
+2887394: done 1323 games, mean reward 14.430, eps 0.02, speed 97.88 f/s
+2889450: done 1324 games, mean reward 14.440, eps 0.02, speed 97.84 f/s
+2891751: done 1325 games, mean reward 14.470, eps 0.02, speed 96.94 f/s
+2893773: done 1326 games, mean reward 14.560, eps 0.02, speed 97.82 f/s
+2895636: done 1327 games, mean reward 14.570, eps 0.02, speed 97.60 f/s
+2898107: done 1328 games, mean reward 14.480, eps 0.02, speed 97.78 f/s
+2900116: done 1329 games, mean reward 14.490, eps 0.02, speed 98.01 f/s
+2902448: done 1330 games, mean reward 14.470, eps 0.02, speed 97.38 f/s
+2904974: done 1331 games, mean reward 14.360, eps 0.02, speed 97.93 f/s
+2906881: done 1332 games, mean reward 14.390, eps 0.02, speed 97.49 f/s
+2909893: done 1333 games, mean reward 14.260, eps 0.02, speed 98.15 f/s
+2911769: done 1334 games, mean reward 14.240, eps 0.02, speed 96.39 f/s
+2914004: done 1335 games, mean reward 14.200, eps 0.02, speed 97.31 f/s
+2916016: done 1336 games, mean reward 14.160, eps 0.02, speed 97.67 f/s
+2917811: done 1337 games, mean reward 14.160, eps 0.02, speed 98.24 f/s
+2919517: done 1338 games, mean reward 14.180, eps 0.02, speed 97.46 f/s
+2921853: done 1339 games, mean reward 14.140, eps 0.02, speed 97.41 f/s
+2923664: done 1340 games, mean reward 14.140, eps 0.02, speed 97.65 f/s
+2925631: done 1341 games, mean reward 14.320, eps 0.02, speed 97.25 f/s
+2927811: done 1342 games, mean reward 14.290, eps 0.02, speed 97.81 f/s
+2929998: done 1343 games, mean reward 14.530, eps 0.02, speed 97.24 f/s
+2931957: done 1344 games, mean reward 14.570, eps 0.02, speed 97.52 f/s
+2934629: done 1345 games, mean reward 14.580, eps 0.02, speed 97.43 f/s
+2936690: done 1346 games, mean reward 14.570, eps 0.02, speed 97.20 f/s
+2938801: done 1347 games, mean reward 14.560, eps 0.02, speed 96.96 f/s
+2941122: done 1348 games, mean reward 14.500, eps 0.02, speed 97.19 f/s
+2943675: done 1349 games, mean reward 14.440, eps 0.02, speed 96.41 f/s
+2945832: done 1350 games, mean reward 14.390, eps 0.02, speed 96.88 f/s
+2948069: done 1351 games, mean reward 14.390, eps 0.02, speed 97.44 f/s
+2949861: done 1352 games, mean reward 14.500, eps 0.02, speed 96.62 f/s
+2952385: done 1353 games, mean reward 14.520, eps 0.02, speed 97.28 f/s
+2954623: done 1354 games, mean reward 14.540, eps 0.02, speed 96.94 f/s
+2957009: done 1355 games, mean reward 14.560, eps 0.02, speed 97.83 f/s
+2960323: done 1356 games, mean reward 14.400, eps 0.02, speed 97.42 f/s
+2963220: done 1357 games, mean reward 14.270, eps 0.02, speed 97.17 f/s
+2966014: done 1358 games, mean reward 14.160, eps 0.02, speed 97.99 f/s
+2968015: done 1359 games, mean reward 14.220, eps 0.02, speed 98.01 f/s
+2969836: done 1360 games, mean reward 14.220, eps 0.02, speed 97.43 f/s
+2971965: done 1361 games, mean reward 14.220, eps 0.02, speed 96.29 f/s
+2974245: done 1362 games, mean reward 14.300, eps 0.02, speed 97.95 f/s
+2976591: done 1363 games, mean reward 14.280, eps 0.02, speed 97.86 f/s
+2978716: done 1364 games, mean reward 14.310, eps 0.02, speed 97.81 f/s
+2981117: done 1365 games, mean reward 14.310, eps 0.02, speed 97.47 f/s
+2983112: done 1366 games, mean reward 14.290, eps 0.02, speed 97.88 f/s
+2984978: done 1367 games, mean reward 14.270, eps 0.02, speed 97.58 f/s
+2986968: done 1368 games, mean reward 14.250, eps 0.02, speed 97.77 f/s
+2989206: done 1369 games, mean reward 14.170, eps 0.02, speed 97.90 f/s
+2991904: done 1370 games, mean reward 14.060, eps 0.02, speed 92.89 f/s
+2994611: done 1371 games, mean reward 14.070, eps 0.02, speed 95.56 f/s
+2996603: done 1372 games, mean reward 14.170, eps 0.02, speed 97.72 f/s
+2998733: done 1373 games, mean reward 14.170, eps 0.02, speed 97.73 f/s
+3000670: done 1374 games, mean reward 14.230, eps 0.02, speed 92.01 f/s
+3003031: done 1375 games, mean reward 14.180, eps 0.02, speed 92.98 f/s
+3005240: done 1376 games, mean reward 14.130, eps 0.02, speed 97.67 f/s
+3006992: done 1377 games, mean reward 14.120, eps 0.02, speed 97.91 f/s
+3009227: done 1378 games, mean reward 14.110, eps 0.02, speed 96.58 f/s
+3012176: done 1379 games, mean reward 13.990, eps 0.02, speed 97.50 f/s
+3013898: done 1380 games, mean reward 14.090, eps 0.02, speed 97.74 f/s
+3016643: done 1381 games, mean reward 14.140, eps 0.02, speed 97.69 f/s
+3018332: done 1382 games, mean reward 14.240, eps 0.02, speed 97.31 f/s
+3020217: done 1383 games, mean reward 14.240, eps 0.02, speed 97.86 f/s
+3022353: done 1384 games, mean reward 14.300, eps 0.02, speed 97.76 f/s
+3024290: done 1385 games, mean reward 14.250, eps 0.02, speed 97.11 f/s
+3026634: done 1386 games, mean reward 14.240, eps 0.02, speed 98.04 f/s
+3028454: done 1387 games, mean reward 14.260, eps 0.02, speed 97.91 f/s
+3030674: done 1388 games, mean reward 14.290, eps 0.02, speed 97.55 f/s
+3033073: done 1389 games, mean reward 14.270, eps 0.02, speed 96.05 f/s
+3035290: done 1390 games, mean reward 14.300, eps 0.02, speed 97.71 f/s
+3037514: done 1391 games, mean reward 14.220, eps 0.02, speed 97.73 f/s
+3039931: done 1392 games, mean reward 14.160, eps 0.02, speed 97.53 f/s
+3041889: done 1393 games, mean reward 14.140, eps 0.02, speed 97.94 f/s
+3044420: done 1394 games, mean reward 14.060, eps 0.02, speed 97.79 f/s
+3046257: done 1395 games, mean reward 14.120, eps 0.02, speed 97.82 f/s
+3048220: done 1396 games, mean reward 14.170, eps 0.02, speed 97.04 f/s
+3049881: done 1397 games, mean reward 14.220, eps 0.02, speed 97.74 f/s
+3052611: done 1398 games, mean reward 14.130, eps 0.02, speed 98.24 f/s
+3054710: done 1399 games, mean reward 14.100, eps 0.02, speed 97.66 f/s
+3056874: done 1400 games, mean reward 14.070, eps 0.02, speed 97.57 f/s
+3059421: done 1401 games, mean reward 13.980, eps 0.02, speed 97.45 f/s
+3061974: done 1402 games, mean reward 13.920, eps 0.02, speed 96.38 f/s
+3063936: done 1403 games, mean reward 13.890, eps 0.02, speed 94.09 f/s
+3065719: done 1404 games, mean reward 13.880, eps 0.02, speed 94.21 f/s
+3068635: done 1405 games, mean reward 13.710, eps 0.02, speed 96.95 f/s
+3071711: done 1406 games, mean reward 13.600, eps 0.02, speed 96.81 f/s
+3074774: done 1407 games, mean reward 13.470, eps 0.02, speed 97.26 f/s
+3076635: done 1408 games, mean reward 13.470, eps 0.02, speed 97.25 f/s
+3078339: done 1409 games, mean reward 13.510, eps 0.02, speed 96.62 f/s
+3080024: done 1410 games, mean reward 13.770, eps 0.02, speed 97.33 f/s
+3082489: done 1411 games, mean reward 13.760, eps 0.02, speed 97.56 f/s
+3084401: done 1412 games, mean reward 13.810, eps 0.02, speed 97.93 f/s
+3086213: done 1413 games, mean reward 13.870, eps 0.02, speed 97.05 f/s
+3088753: done 1414 games, mean reward 13.830, eps 0.02, speed 97.63 f/s
+3091141: done 1415 games, mean reward 13.860, eps 0.02, speed 97.89 f/s
+3093488: done 1416 games, mean reward 13.810, eps 0.02, speed 96.40 f/s
+3096014: done 1417 games, mean reward 13.730, eps 0.02, speed 97.33 f/s
+3097936: done 1418 games, mean reward 13.730, eps 0.02, speed 97.61 f/s
+3099968: done 1419 games, mean reward 13.720, eps 0.02, speed 97.95 f/s
+3102976: done 1420 games, mean reward 13.530, eps 0.02, speed 97.58 f/s
+3104732: done 1421 games, mean reward 13.550, eps 0.02, speed 98.24 f/s
+3107004: done 1422 games, mean reward 13.550, eps 0.02, speed 98.34 f/s
+3109230: done 1423 games, mean reward 13.630, eps 0.02, speed 97.69 f/s
+3111439: done 1424 games, mean reward 13.630, eps 0.02, speed 97.43 f/s
+3113214: done 1425 games, mean reward 13.710, eps 0.02, speed 97.96 f/s
+3115195: done 1426 games, mean reward 13.710, eps 0.02, speed 97.72 f/s
+3116930: done 1427 games, mean reward 13.720, eps 0.02, speed 97.54 f/s
+3118862: done 1428 games, mean reward 13.800, eps 0.02, speed 97.37 f/s
+3120872: done 1429 games, mean reward 13.800, eps 0.02, speed 97.62 f/s
+3122860: done 1430 games, mean reward 13.830, eps 0.02, speed 96.60 f/s
+3125258: done 1431 games, mean reward 13.860, eps 0.02, speed 97.45 f/s
+3127403: done 1432 games, mean reward 13.850, eps 0.02, speed 97.57 f/s
+3130075: done 1433 games, mean reward 13.780, eps 0.02, speed 97.80 f/s
+3132383: done 1434 games, mean reward 13.720, eps 0.02, speed 97.66 f/s
+3134164: done 1435 games, mean reward 13.780, eps 0.02, speed 97.41 f/s
+3136829: done 1436 games, mean reward 13.700, eps 0.02, speed 97.52 f/s
+3138860: done 1437 games, mean reward 13.670, eps 0.02, speed 97.67 f/s
+3141223: done 1438 games, mean reward 13.590, eps 0.02, speed 96.43 f/s
+3144014: done 1439 games, mean reward 13.530, eps 0.02, speed 97.32 f/s
+3145949: done 1440 games, mean reward 13.500, eps 0.02, speed 97.41 f/s
+3148222: done 1441 games, mean reward 13.480, eps 0.02, speed 97.19 f/s
+3150561: done 1442 games, mean reward 13.470, eps 0.02, speed 96.81 f/s
+3152385: done 1443 games, mean reward 13.500, eps 0.02, speed 96.40 f/s
+3154373: done 1444 games, mean reward 13.490, eps 0.02, speed 96.18 f/s
+3156562: done 1445 games, mean reward 13.550, eps 0.02, speed 97.09 f/s
+3158335: done 1446 games, mean reward 13.600, eps 0.02, speed 96.74 f/s
+3160078: done 1447 games, mean reward 13.630, eps 0.02, speed 97.31 f/s
+3162649: done 1448 games, mean reward 13.570, eps 0.02, speed 97.57 f/s
+3164615: done 1449 games, mean reward 13.630, eps 0.02, speed 96.67 f/s
+3166426: done 1450 games, mean reward 13.680, eps 0.02, speed 97.28 f/s
+3168105: done 1451 games, mean reward 13.720, eps 0.02, speed 97.20 f/s
+3170308: done 1452 games, mean reward 13.660, eps 0.02, speed 97.65 f/s
+3172532: done 1453 games, mean reward 13.710, eps 0.02, speed 97.03 f/s
+3175201: done 1454 games, mean reward 13.480, eps 0.02, speed 97.52 f/s
+3177383: done 1455 games, mean reward 13.500, eps 0.02, speed 97.17 f/s
+3180461: done 1456 games, mean reward 13.550, eps 0.02, speed 97.11 f/s
+3182542: done 1457 games, mean reward 13.620, eps 0.02, speed 97.11 f/s
+3185189: done 1458 games, mean reward 13.620, eps 0.02, speed 96.67 f/s
+3187352: done 1459 games, mean reward 13.580, eps 0.02, speed 96.91 f/s
+3189472: done 1460 games, mean reward 13.540, eps 0.02, speed 97.45 f/s
+3191838: done 1461 games, mean reward 13.490, eps 0.02, speed 97.85 f/s
+3193711: done 1462 games, mean reward 13.530, eps 0.02, speed 97.31 f/s
+3196272: done 1463 games, mean reward 13.520, eps 0.02, speed 97.61 f/s
+3198100: done 1464 games, mean reward 13.560, eps 0.02, speed 98.52 f/s
+3199847: done 1465 games, mean reward 13.610, eps 0.02, speed 98.00 f/s
+3201549: done 1466 games, mean reward 13.640, eps 0.02, speed 98.05 f/s
+3203948: done 1467 games, mean reward 13.580, eps 0.02, speed 97.90 f/s
+3206115: done 1468 games, mean reward 13.540, eps 0.02, speed 98.00 f/s
+3208292: done 1469 games, mean reward 13.540, eps 0.02, speed 97.71 f/s
+3210435: done 1470 games, mean reward 13.590, eps 0.02, speed 97.75 f/s
+3212298: done 1471 games, mean reward 13.680, eps 0.02, speed 97.50 f/s
+3214528: done 1472 games, mean reward 13.670, eps 0.02, speed 96.03 f/s
+3216297: done 1473 games, mean reward 13.710, eps 0.02, speed 97.68 f/s
+3218587: done 1474 games, mean reward 13.650, eps 0.02, speed 97.31 f/s
+3220594: done 1475 games, mean reward 13.660, eps 0.02, speed 97.30 f/s
+3222983: done 1476 games, mean reward 13.610, eps 0.02, speed 97.73 f/s
+3225611: done 1477 games, mean reward 13.520, eps 0.02, speed 98.12 f/s
+3227548: done 1478 games, mean reward 13.560, eps 0.02, speed 97.29 f/s
+3229586: done 1479 games, mean reward 13.680, eps 0.02, speed 97.78 f/s
+3232177: done 1480 games, mean reward 13.530, eps 0.02, speed 97.61 f/s
+3234093: done 1481 games, mean reward 13.620, eps 0.02, speed 97.68 f/s
+3235754: done 1482 games, mean reward 13.620, eps 0.02, speed 97.11 f/s
+3238606: done 1483 games, mean reward 13.530, eps 0.02, speed 97.62 f/s
+3240688: done 1484 games, mean reward 13.550, eps 0.02, speed 97.88 f/s
+3242437: done 1485 games, mean reward 13.580, eps 0.02, speed 97.73 f/s
+3244602: done 1486 games, mean reward 13.590, eps 0.02, speed 95.64 f/s
+3246744: done 1487 games, mean reward 13.510, eps 0.02, speed 96.76 f/s
+3248518: done 1488 games, mean reward 13.570, eps 0.02, speed 97.48 f/s
+3250820: done 1489 games, mean reward 13.590, eps 0.02, speed 96.73 f/s
+3252657: done 1490 games, mean reward 13.610, eps 0.02, speed 96.84 f/s
+3254956: done 1491 games, mean reward 13.610, eps 0.02, speed 97.21 f/s
+3257340: done 1492 games, mean reward 13.600, eps 0.02, speed 97.31 f/s
+3259274: done 1493 games, mean reward 13.610, eps 0.02, speed 96.90 f/s
+3261353: done 1494 games, mean reward 13.660, eps 0.02, speed 97.12 f/s
+3263187: done 1495 games, mean reward 13.660, eps 0.02, speed 97.31 f/s
+3264948: done 1496 games, mean reward 13.680, eps 0.02, speed 97.05 f/s
+3267354: done 1497 games, mean reward 13.590, eps 0.02, speed 97.00 f/s
+3269772: done 1498 games, mean reward 13.690, eps 0.02, speed 97.52 f/s
+3271753: done 1499 games, mean reward 13.690, eps 0.02, speed 97.05 f/s
+3274307: done 1500 games, mean reward 13.620, eps 0.02, speed 96.13 f/s
+3276051: done 1501 games, mean reward 13.720, eps 0.02, speed 96.62 f/s
+3277995: done 1502 games, mean reward 13.790, eps 0.02, speed 97.57 f/s
+3280239: done 1503 games, mean reward 13.780, eps 0.02, speed 97.59 f/s
+3282521: done 1504 games, mean reward 13.710, eps 0.02, speed 96.96 f/s
+3284568: done 1505 games, mean reward 13.830, eps 0.02, speed 97.65 f/s
+3286738: done 1506 games, mean reward 13.940, eps 0.02, speed 97.46 f/s
+3288475: done 1507 games, mean reward 14.060, eps 0.02, speed 97.64 f/s
+3290353: done 1508 games, mean reward 14.070, eps 0.02, speed 96.74 f/s
+3291984: done 1509 games, mean reward 14.080, eps 0.02, speed 97.71 f/s
+3293976: done 1510 games, mean reward 14.040, eps 0.02, speed 97.64 f/s
+3297126: done 1511 games, mean reward 13.930, eps 0.02, speed 97.63 f/s
+3299019: done 1512 games, mean reward 13.930, eps 0.02, speed 97.24 f/s
+3300853: done 1513 games, mean reward 13.910, eps 0.02, speed 97.90 f/s
+3302707: done 1514 games, mean reward 14.010, eps 0.02, speed 97.94 f/s
+3304783: done 1515 games, mean reward 14.060, eps 0.02, speed 96.40 f/s
+3306920: done 1516 games, mean reward 14.100, eps 0.02, speed 97.34 f/s
+3308732: done 1517 games, mean reward 14.190, eps 0.02, speed 98.30 f/s
+3310711: done 1518 games, mean reward 14.170, eps 0.02, speed 97.42 f/s
+3312781: done 1519 games, mean reward 14.140, eps 0.02, speed 97.13 f/s
+3314976: done 1520 games, mean reward 14.270, eps 0.02, speed 97.48 f/s
+3317540: done 1521 games, mean reward 14.170, eps 0.02, speed 97.81 f/s
+3319608: done 1522 games, mean reward 14.180, eps 0.02, speed 97.98 f/s
+3322621: done 1523 games, mean reward 14.060, eps 0.02, speed 97.54 f/s
+3324428: done 1524 games, mean reward 14.130, eps 0.02, speed 97.54 f/s
+3326138: done 1525 games, mean reward 14.140, eps 0.02, speed 98.08 f/s
+3327950: done 1526 games, mean reward 14.150, eps 0.02, speed 97.71 f/s
+3330361: done 1527 games, mean reward 14.060, eps 0.02, speed 97.52 f/s
+3332072: done 1528 games, mean reward 14.080, eps 0.02, speed 98.22 f/s
+3333700: done 1529 games, mean reward 14.130, eps 0.02, speed 97.17 f/s
+3336408: done 1530 games, mean reward 14.040, eps 0.02, speed 96.43 f/s
+3338148: done 1531 games, mean reward 14.110, eps 0.02, speed 97.74 f/s
+3340088: done 1532 games, mean reward 14.130, eps 0.02, speed 97.53 f/s
+3341831: done 1533 games, mean reward 14.380, eps 0.02, speed 96.95 f/s
+3343639: done 1534 games, mean reward 14.430, eps 0.02, speed 97.30 f/s
+3346182: done 1535 games, mean reward 14.300, eps 0.02, speed 97.16 f/s
+3348073: done 1536 games, mean reward 14.380, eps 0.02, speed 96.99 f/s
+3350344: done 1537 games, mean reward 14.370, eps 0.02, speed 97.68 f/s
+3352775: done 1538 games, mean reward 14.360, eps 0.02, speed 96.92 f/s
+3354681: done 1539 games, mean reward 14.470, eps 0.02, speed 97.69 f/s
+3356589: done 1540 games, mean reward 14.490, eps 0.02, speed 97.95 f/s
+3358693: done 1541 games, mean reward 14.530, eps 0.02, speed 97.67 f/s
+3360916: done 1542 games, mean reward 14.560, eps 0.02, speed 96.92 f/s
+3363176: done 1543 games, mean reward 14.500, eps 0.02, speed 97.17 f/s
+3365419: done 1544 games, mean reward 14.440, eps 0.02, speed 95.79 f/s
+3367677: done 1545 games, mean reward 14.430, eps 0.02, speed 97.18 f/s
+3370053: done 1546 games, mean reward 14.370, eps 0.02, speed 97.21 f/s
+3372288: done 1547 games, mean reward 14.290, eps 0.02, speed 97.61 f/s
+3374534: done 1548 games, mean reward 14.340, eps 0.02, speed 93.48 f/s
+3376330: done 1549 games, mean reward 14.350, eps 0.02, speed 94.87 f/s
+3378759: done 1550 games, mean reward 14.260, eps 0.02, speed 96.99 f/s
+3381649: done 1551 games, mean reward 14.170, eps 0.02, speed 96.91 f/s
+3383673: done 1552 games, mean reward 14.220, eps 0.02, speed 96.62 f/s
+3386077: done 1553 games, mean reward 14.200, eps 0.02, speed 97.12 f/s
+3387928: done 1554 games, mean reward 14.480, eps 0.02, speed 97.34 f/s
+3390440: done 1555 games, mean reward 14.470, eps 0.02, speed 97.39 f/s
+3392186: done 1556 games, mean reward 14.600, eps 0.02, speed 96.14 f/s
+3394201: done 1557 games, mean reward 14.650, eps 0.02, speed 95.74 f/s
+3396136: done 1558 games, mean reward 14.770, eps 0.02, speed 96.32 f/s
+3398187: done 1559 games, mean reward 14.800, eps 0.02, speed 97.00 f/s
+3400282: done 1560 games, mean reward 14.810, eps 0.02, speed 96.81 f/s
+3402891: done 1561 games, mean reward 14.780, eps 0.02, speed 97.21 f/s
+3404712: done 1562 games, mean reward 14.790, eps 0.02, speed 97.37 f/s
+3406668: done 1563 games, mean reward 14.860, eps 0.02, speed 96.76 f/s
+3408546: done 1564 games, mean reward 14.870, eps 0.02, speed 97.07 f/s
+3410396: done 1565 games, mean reward 14.860, eps 0.02, speed 97.53 f/s
+3412769: done 1566 games, mean reward 14.740, eps 0.02, speed 97.03 f/s
+3414880: done 1567 games, mean reward 14.760, eps 0.02, speed 97.00 f/s
+3417490: done 1568 games, mean reward 14.710, eps 0.02, speed 97.50 f/s
+3419406: done 1569 games, mean reward 14.770, eps 0.02, speed 97.60 f/s
+3421118: done 1570 games, mean reward 14.850, eps 0.02, speed 96.71 f/s
+3422938: done 1571 games, mean reward 14.860, eps 0.02, speed 96.54 f/s
+3425438: done 1572 games, mean reward 14.810, eps 0.02, speed 94.45 f/s
+3427672: done 1573 games, mean reward 14.770, eps 0.02, speed 96.62 f/s
+3429655: done 1574 games, mean reward 14.820, eps 0.02, speed 96.40 f/s
+3432217: done 1575 games, mean reward 14.770, eps 0.02, speed 96.23 f/s
+3434185: done 1576 games, mean reward 14.840, eps 0.02, speed 96.77 f/s
+3436277: done 1577 games, mean reward 14.900, eps 0.02, speed 96.57 f/s
+3438104: done 1578 games, mean reward 14.910, eps 0.02, speed 96.37 f/s
+3439945: done 1579 games, mean reward 14.940, eps 0.02, speed 96.79 f/s
+3441965: done 1580 games, mean reward 15.040, eps 0.02, speed 96.69 f/s
+3444770: done 1581 games, mean reward 14.900, eps 0.02, speed 96.66 f/s
+3447364: done 1582 games, mean reward 14.780, eps 0.02, speed 96.63 f/s
+3449424: done 1583 games, mean reward 14.840, eps 0.02, speed 97.06 f/s
+3451767: done 1584 games, mean reward 14.800, eps 0.02, speed 97.09 f/s
+3454423: done 1585 games, mean reward 14.720, eps 0.02, speed 95.86 f/s
+3456406: done 1586 games, mean reward 14.730, eps 0.02, speed 96.51 f/s
+3458278: done 1587 games, mean reward 14.770, eps 0.02, speed 97.17 f/s
+3460217: done 1588 games, mean reward 14.740, eps 0.02, speed 97.20 f/s
+3462496: done 1589 games, mean reward 14.750, eps 0.02, speed 97.22 f/s
+3465462: done 1590 games, mean reward 14.600, eps 0.02, speed 97.55 f/s
+3467627: done 1591 games, mean reward 14.620, eps 0.02, speed 97.36 f/s
+3470067: done 1592 games, mean reward 14.610, eps 0.02, speed 97.14 f/s
+3472212: done 1593 games, mean reward 14.570, eps 0.02, speed 97.64 f/s
+3474059: done 1594 games, mean reward 14.600, eps 0.02, speed 97.29 f/s
+3475767: done 1595 games, mean reward 14.620, eps 0.02, speed 97.39 f/s
+3477824: done 1596 games, mean reward 14.590, eps 0.02, speed 96.97 f/s
+3479956: done 1597 games, mean reward 14.620, eps 0.02, speed 97.11 f/s
+3482623: done 1598 games, mean reward 14.600, eps 0.02, speed 96.97 f/s
+3484667: done 1599 games, mean reward 14.600, eps 0.02, speed 94.83 f/s
+3486945: done 1600 games, mean reward 14.660, eps 0.02, speed 96.24 f/s
+3489400: done 1601 games, mean reward 14.570, eps 0.02, speed 96.57 f/s
+3491935: done 1602 games, mean reward 14.480, eps 0.02, speed 96.79 f/s
+3494187: done 1603 games, mean reward 14.510, eps 0.02, speed 96.30 f/s
+3496799: done 1604 games, mean reward 14.500, eps 0.02, speed 96.87 f/s
+3499149: done 1605 games, mean reward 14.470, eps 0.02, speed 96.72 f/s
+3501480: done 1606 games, mean reward 14.470, eps 0.02, speed 96.46 f/s
+3503998: done 1607 games, mean reward 14.250, eps 0.02, speed 96.64 f/s
+3506223: done 1608 games, mean reward 14.190, eps 0.02, speed 97.11 f/s
+3508415: done 1609 games, mean reward 14.120, eps 0.02, speed 96.37 f/s
+3510810: done 1610 games, mean reward 14.050, eps 0.02, speed 96.91 f/s
+3513951: done 1611 games, mean reward 14.040, eps 0.02, speed 96.66 f/s
+3516760: done 1612 games, mean reward 13.980, eps 0.02, speed 95.76 f/s
+3518920: done 1613 games, mean reward 13.970, eps 0.02, speed 97.20 f/s
+3520790: done 1614 games, mean reward 13.960, eps 0.02, speed 97.04 f/s
+3522732: done 1615 games, mean reward 13.990, eps 0.02, speed 97.02 f/s
+3525265: done 1616 games, mean reward 13.920, eps 0.02, speed 96.84 f/s
+3528528: done 1617 games, mean reward 13.760, eps 0.02, speed 97.15 f/s
+3531047: done 1618 games, mean reward 13.700, eps 0.02, speed 96.97 f/s
+3533587: done 1619 games, mean reward 13.700, eps 0.02, speed 96.75 f/s
+3535783: done 1620 games, mean reward 13.720, eps 0.02, speed 97.28 f/s
+3537986: done 1621 games, mean reward 13.780, eps 0.02, speed 96.94 f/s
+3540100: done 1622 games, mean reward 13.800, eps 0.02, speed 96.61 f/s
+3541803: done 1623 games, mean reward 13.990, eps 0.02, speed 97.08 f/s
+3543782: done 1624 games, mean reward 14.000, eps 0.02, speed 96.43 f/s
+3545500: done 1625 games, mean reward 13.980, eps 0.02, speed 95.06 f/s
+3547131: done 1626 games, mean reward 14.000, eps 0.02, speed 96.68 f/s
+3549173: done 1627 games, mean reward 14.030, eps 0.02, speed 96.76 f/s
+3551508: done 1628 games, mean reward 13.940, eps 0.02, speed 97.11 f/s
+3553342: done 1629 games, mean reward 13.930, eps 0.02, speed 96.99 f/s
+3554968: done 1630 games, mean reward 14.070, eps 0.02, speed 96.83 f/s
+3557090: done 1631 games, mean reward 14.040, eps 0.02, speed 97.11 f/s
+3558847: done 1632 games, mean reward 14.080, eps 0.02, speed 97.46 f/s
+3561143: done 1633 games, mean reward 14.020, eps 0.02, speed 97.21 f/s
+3563565: done 1634 games, mean reward 13.950, eps 0.02, speed 96.81 f/s
+3565471: done 1635 games, mean reward 14.060, eps 0.02, speed 97.16 f/s
+3567378: done 1636 games, mean reward 14.090, eps 0.02, speed 96.99 f/s
+3569583: done 1637 games, mean reward 14.070, eps 0.02, speed 96.84 f/s
+3571455: done 1638 games, mean reward 14.130, eps 0.02, speed 96.82 f/s
+3573892: done 1639 games, mean reward 14.050, eps 0.02, speed 96.89 f/s
+3575820: done 1640 games, mean reward 14.050, eps 0.02, speed 95.92 f/s
+3577566: done 1641 games, mean reward 14.070, eps 0.02, speed 97.01 f/s
+3579400: done 1642 games, mean reward 14.090, eps 0.02, speed 97.02 f/s
+3581418: done 1643 games, mean reward 14.100, eps 0.02, speed 97.10 f/s
+3583561: done 1644 games, mean reward 14.140, eps 0.02, speed 96.87 f/s
+3585704: done 1645 games, mean reward 14.150, eps 0.02, speed 96.98 f/s
+3587572: done 1646 games, mean reward 14.180, eps 0.02, speed 96.82 f/s
+3589582: done 1647 games, mean reward 14.240, eps 0.02, speed 97.21 f/s
+3591777: done 1648 games, mean reward 14.250, eps 0.02, speed 97.26 f/s
+3594423: done 1649 games, mean reward 14.150, eps 0.02, speed 97.32 f/s
+3597082: done 1650 games, mean reward 14.140, eps 0.02, speed 97.17 f/s
+3599610: done 1651 games, mean reward 14.120, eps 0.02, speed 97.39 f/s
+3602156: done 1652 games, mean reward 14.070, eps 0.02, speed 96.72 f/s
+3604751: done 1653 games, mean reward 14.040, eps 0.02, speed 96.50 f/s
+3608482: done 1654 games, mean reward 13.890, eps 0.02, speed 97.04 f/s
+3611070: done 1655 games, mean reward 13.880, eps 0.02, speed 96.98 f/s
+3613053: done 1656 games, mean reward 13.870, eps 0.02, speed 96.70 f/s
+3614983: done 1657 games, mean reward 13.870, eps 0.02, speed 97.00 f/s
+3617035: done 1658 games, mean reward 13.870, eps 0.02, speed 94.34 f/s
+3618872: done 1659 games, mean reward 13.900, eps 0.02, speed 94.58 f/s
+3620612: done 1660 games, mean reward 13.940, eps 0.02, speed 91.72 f/s
+3623448: done 1661 games, mean reward 13.950, eps 0.02, speed 95.79 f/s
+3625510: done 1662 games, mean reward 13.940, eps 0.02, speed 96.31 f/s
+3628178: done 1663 games, mean reward 13.710, eps 0.02, speed 97.25 f/s
+3630557: done 1664 games, mean reward 13.630, eps 0.02, speed 96.85 f/s
+3632842: done 1665 games, mean reward 13.600, eps 0.02, speed 96.17 f/s
+3635035: done 1666 games, mean reward 13.660, eps 0.02, speed 95.84 f/s
+3636936: done 1667 games, mean reward 13.720, eps 0.02, speed 97.29 f/s
+3639158: done 1668 games, mean reward 13.770, eps 0.02, speed 97.05 f/s
+3641055: done 1669 games, mean reward 13.790, eps 0.02, speed 96.75 f/s
+3643105: done 1670 games, mean reward 13.730, eps 0.02, speed 96.92 f/s
+3644921: done 1671 games, mean reward 13.720, eps 0.02, speed 96.93 f/s
+3647225: done 1672 games, mean reward 13.740, eps 0.02, speed 97.43 f/s
+3650112: done 1673 games, mean reward 13.550, eps 0.02, speed 96.56 f/s
+3653141: done 1674 games, mean reward 13.440, eps 0.02, speed 97.22 f/s
+3655852: done 1675 games, mean reward 13.460, eps 0.02, speed 97.17 f/s
+3659002: done 1676 games, mean reward 13.270, eps 0.02, speed 97.21 f/s
+3661581: done 1677 games, mean reward 13.250, eps 0.02, speed 96.84 f/s
+3663582: done 1678 games, mean reward 13.240, eps 0.02, speed 96.98 f/s
+3666027: done 1679 games, mean reward 13.170, eps 0.02, speed 96.06 f/s
+3669041: done 1680 games, mean reward 13.090, eps 0.02, speed 97.45 f/s
+3671144: done 1681 games, mean reward 13.190, eps 0.02, speed 97.32 f/s
+3672859: done 1682 games, mean reward 13.310, eps 0.02, speed 96.76 f/s
+3675030: done 1683 games, mean reward 13.310, eps 0.02, speed 97.72 f/s
+3676927: done 1684 games, mean reward 13.380, eps 0.02, speed 97.40 f/s
+3678758: done 1685 games, mean reward 13.460, eps 0.02, speed 97.24 f/s
+3680475: done 1686 games, mean reward 13.500, eps 0.02, speed 97.32 f/s
+3682248: done 1687 games, mean reward 13.520, eps 0.02, speed 97.06 f/s
+3684565: done 1688 games, mean reward 13.490, eps 0.02, speed 97.26 f/s
+3686346: done 1689 games, mean reward 13.560, eps 0.02, speed 97.05 f/s
+3688833: done 1690 games, mean reward 13.640, eps 0.02, speed 96.92 f/s
+3691291: done 1691 games, mean reward 13.620, eps 0.02, speed 96.84 f/s
+3693417: done 1692 games, mean reward 13.690, eps 0.02, speed 97.26 f/s
+3696670: done 1693 games, mean reward 13.550, eps 0.02, speed 96.34 f/s
+3699493: done 1694 games, mean reward 13.450, eps 0.02, speed 97.44 f/s
+3701890: done 1695 games, mean reward 13.380, eps 0.02, speed 97.85 f/s
+3703921: done 1696 games, mean reward 13.390, eps 0.02, speed 97.18 f/s
+3705641: done 1697 games, mean reward 13.440, eps 0.02, speed 97.63 f/s
+3707665: done 1698 games, mean reward 13.520, eps 0.02, speed 97.47 f/s
+3709528: done 1699 games, mean reward 13.530, eps 0.02, speed 97.60 f/s
+3711540: done 1700 games, mean reward 13.560, eps 0.02, speed 97.11 f/s
+3713611: done 1701 games, mean reward 13.590, eps 0.02, speed 97.72 f/s
+3716100: done 1702 games, mean reward 13.590, eps 0.02, speed 97.54 f/s
+3717977: done 1703 games, mean reward 13.600, eps 0.02, speed 97.22 f/s
+3720003: done 1704 games, mean reward 13.650, eps 0.02, speed 96.63 f/s
+3722404: done 1705 games, mean reward 13.660, eps 0.02, speed 97.63 f/s
+3723873: done 1706 games, mean reward 13.350, eps 0.02, speed 97.35 f/s
+3726377: done 1707 games, mean reward 13.490, eps 0.02, speed 96.01 f/s
+3728615: done 1708 games, mean reward 13.480, eps 0.02, speed 97.58 f/s
+3731619: done 1709 games, mean reward 13.360, eps 0.02, speed 97.41 f/s
+3734600: done 1710 games, mean reward 13.350, eps 0.02, speed 97.22 f/s
+3736939: done 1711 games, mean reward 13.480, eps 0.02, speed 97.62 f/s
+3739288: done 1712 games, mean reward 13.500, eps 0.02, speed 97.82 f/s
+3741343: done 1713 games, mean reward 13.500, eps 0.02, speed 97.34 f/s
+3743504: done 1714 games, mean reward 13.480, eps 0.02, speed 97.25 f/s
+3745353: done 1715 games, mean reward 13.480, eps 0.02, speed 97.78 f/s
+3748020: done 1716 games, mean reward 13.450, eps 0.02, speed 97.05 f/s
+3750692: done 1717 games, mean reward 13.260, eps 0.02, speed 96.86 f/s
+3753643: done 1718 games, mean reward 13.260, eps 0.02, speed 97.25 f/s
+3756101: done 1719 games, mean reward 13.260, eps 0.02, speed 96.21 f/s
+3757963: done 1720 games, mean reward 13.280, eps 0.02, speed 96.75 f/s
+3760153: done 1721 games, mean reward 13.260, eps 0.02, speed 97.53 f/s
+3761867: done 1722 games, mean reward 13.290, eps 0.02, speed 97.23 f/s
+3764243: done 1723 games, mean reward 13.220, eps 0.02, speed 97.25 f/s
+3767199: done 1724 games, mean reward 12.960, eps 0.02, speed 97.17 f/s
+3769605: done 1725 games, mean reward 12.910, eps 0.02, speed 97.76 f/s
+3772243: done 1726 games, mean reward 12.810, eps 0.02, speed 97.56 f/s
+3774554: done 1727 games, mean reward 12.800, eps 0.02, speed 97.22 f/s
+3776991: done 1728 games, mean reward 12.790, eps 0.02, speed 97.63 f/s
+3779455: done 1729 games, mean reward 12.670, eps 0.02, speed 96.99 f/s
+3781695: done 1730 games, mean reward 12.590, eps 0.02, speed 97.01 f/s
+3783653: done 1731 games, mean reward 12.580, eps 0.02, speed 97.42 f/s
+3785827: done 1732 games, mean reward 12.520, eps 0.02, speed 95.61 f/s
+3788110: done 1733 games, mean reward 12.530, eps 0.02, speed 97.01 f/s
+3790461: done 1734 games, mean reward 12.560, eps 0.02, speed 96.54 f/s
+3792113: done 1735 games, mean reward 12.600, eps 0.02, speed 97.06 f/s
+3794187: done 1736 games, mean reward 12.570, eps 0.02, speed 96.92 f/s
+3796697: done 1737 games, mean reward 12.570, eps 0.02, speed 96.52 f/s
+3798943: done 1738 games, mean reward 12.540, eps 0.02, speed 96.59 f/s
+3800766: done 1739 games, mean reward 12.640, eps 0.02, speed 97.04 f/s
+3802560: done 1740 games, mean reward 12.660, eps 0.02, speed 96.87 f/s
+3804272: done 1741 games, mean reward 12.670, eps 0.02, speed 96.27 f/s
+3806737: done 1742 games, mean reward 12.580, eps 0.02, speed 97.13 f/s
+3808989: done 1743 games, mean reward 12.590, eps 0.02, speed 96.43 f/s
+3810875: done 1744 games, mean reward 12.630, eps 0.02, speed 96.96 f/s
+3812538: done 1745 games, mean reward 12.690, eps 0.02, speed 96.62 f/s
+3814310: done 1746 games, mean reward 12.720, eps 0.02, speed 97.24 f/s
+3815980: done 1747 games, mean reward 12.760, eps 0.02, speed 94.93 f/s
+3817766: done 1748 games, mean reward 12.830, eps 0.02, speed 97.36 f/s
+3819710: done 1749 games, mean reward 12.940, eps 0.02, speed 97.05 f/s
+3822051: done 1750 games, mean reward 12.970, eps 0.02, speed 97.02 f/s
+3824327: done 1751 games, mean reward 13.010, eps 0.02, speed 97.42 f/s
+3826313: done 1752 games, mean reward 13.060, eps 0.02, speed 97.33 f/s
+3828155: done 1753 games, mean reward 13.150, eps 0.02, speed 96.81 f/s
+3830130: done 1754 games, mean reward 13.300, eps 0.02, speed 97.36 f/s
+3833222: done 1755 games, mean reward 13.270, eps 0.02, speed 97.39 f/s
+3835839: done 1756 games, mean reward 13.210, eps 0.02, speed 96.78 f/s
+3838665: done 1757 games, mean reward 13.140, eps 0.02, speed 96.84 f/s
+3840677: done 1758 games, mean reward 13.160, eps 0.02, speed 97.21 f/s
+3842533: done 1759 games, mean reward 13.160, eps 0.02, speed 96.95 f/s
+3844236: done 1760 games, mean reward 13.160, eps 0.02, speed 96.77 f/s
+3846132: done 1761 games, mean reward 13.240, eps 0.02, speed 95.79 f/s
+3848649: done 1762 games, mean reward 13.150, eps 0.02, speed 96.70 f/s
+3850625: done 1763 games, mean reward 13.390, eps 0.02, speed 96.95 f/s
+3852991: done 1764 games, mean reward 13.400, eps 0.02, speed 97.04 f/s
+3855176: done 1765 games, mean reward 13.390, eps 0.02, speed 97.38 f/s
+3856949: done 1766 games, mean reward 13.440, eps 0.02, speed 97.20 f/s
+3859213: done 1767 games, mean reward 13.380, eps 0.02, speed 96.66 f/s
+3860925: done 1768 games, mean reward 13.450, eps 0.02, speed 97.37 f/s
+3862695: done 1769 games, mean reward 13.440, eps 0.02, speed 97.21 f/s
+3864508: done 1770 games, mean reward 13.500, eps 0.02, speed 97.18 f/s
+3866538: done 1771 games, mean reward 13.470, eps 0.02, speed 96.89 f/s
+3868775: done 1772 games, mean reward 13.500, eps 0.02, speed 96.75 f/s
+3870992: done 1773 games, mean reward 13.700, eps 0.02, speed 97.20 f/s
+3872798: done 1774 games, mean reward 13.840, eps 0.02, speed 97.20 f/s
+3874560: done 1775 games, mean reward 13.920, eps 0.02, speed 96.95 f/s
+3877063: done 1776 games, mean reward 14.060, eps 0.02, speed 95.97 f/s
+3879350: done 1777 games, mean reward 14.040, eps 0.02, speed 97.36 f/s
+3882455: done 1778 games, mean reward 13.930, eps 0.02, speed 96.97 f/s
+3884608: done 1779 games, mean reward 13.960, eps 0.02, speed 97.31 f/s
+3886767: done 1780 games, mean reward 14.020, eps 0.02, speed 97.25 f/s
+3888895: done 1781 games, mean reward 14.030, eps 0.02, speed 97.04 f/s
+3890773: done 1782 games, mean reward 14.020, eps 0.02, speed 96.76 f/s
+3892499: done 1783 games, mean reward 14.070, eps 0.02, speed 97.49 f/s
+3894408: done 1784 games, mean reward 14.050, eps 0.02, speed 97.58 f/s
+3896210: done 1785 games, mean reward 14.060, eps 0.02, speed 97.47 f/s
+3898777: done 1786 games, mean reward 14.000, eps 0.02, speed 96.98 f/s
+3900543: done 1787 games, mean reward 14.010, eps 0.02, speed 97.64 f/s
+3903005: done 1788 games, mean reward 13.990, eps 0.02, speed 97.74 f/s
+3905045: done 1789 games, mean reward 13.940, eps 0.02, speed 97.58 f/s
+3907373: done 1790 games, mean reward 13.970, eps 0.02, speed 96.31 f/s
+3909247: done 1791 games, mean reward 14.030, eps 0.02, speed 97.29 f/s
+3910899: done 1792 games, mean reward 14.080, eps 0.02, speed 97.69 f/s
+3912668: done 1793 games, mean reward 14.290, eps 0.02, speed 97.51 f/s
+3914369: done 1794 games, mean reward 14.400, eps 0.02, speed 96.58 f/s
+3916984: done 1795 games, mean reward 14.350, eps 0.02, speed 97.22 f/s
+3919410: done 1796 games, mean reward 14.300, eps 0.02, speed 97.30 f/s
+3921884: done 1797 games, mean reward 14.220, eps 0.02, speed 96.81 f/s
+3925206: done 1798 games, mean reward 14.060, eps 0.02, speed 97.46 f/s
+3927668: done 1799 games, mean reward 14.000, eps 0.02, speed 96.77 f/s
+3929946: done 1800 games, mean reward 13.970, eps 0.02, speed 97.08 f/s
+3932702: done 1801 games, mean reward 13.910, eps 0.02, speed 97.17 f/s
+3934575: done 1802 games, mean reward 14.020, eps 0.02, speed 97.34 f/s
+3937212: done 1803 games, mean reward 13.920, eps 0.02, speed 96.10 f/s
+3940090: done 1804 games, mean reward 13.820, eps 0.02, speed 97.58 f/s
+3942357: done 1805 games, mean reward 13.820, eps 0.02, speed 97.75 f/s
+3944142: done 1806 games, mean reward 14.190, eps 0.02, speed 96.96 f/s
+3945795: done 1807 games, mean reward 14.290, eps 0.02, speed 97.45 f/s
+3947801: done 1808 games, mean reward 14.340, eps 0.02, speed 97.69 f/s
+3949453: done 1809 games, mean reward 14.530, eps 0.02, speed 97.64 f/s
+3951663: done 1810 games, mean reward 14.610, eps 0.02, speed 97.30 f/s
+3953591: done 1811 games, mean reward 14.630, eps 0.02, speed 97.12 f/s
+3955529: done 1812 games, mean reward 14.680, eps 0.02, speed 97.16 f/s
+3957556: done 1813 games, mean reward 14.680, eps 0.02, speed 96.89 f/s
+3959705: done 1814 games, mean reward 14.700, eps 0.02, speed 97.30 f/s
+3961567: done 1815 games, mean reward 14.700, eps 0.02, speed 96.62 f/s
+3963614: done 1816 games, mean reward 14.800, eps 0.02, speed 97.31 f/s
+3966150: done 1817 games, mean reward 15.110, eps 0.02, speed 96.59 f/s
+3967815: done 1818 games, mean reward 15.210, eps 0.02, speed 96.19 f/s
+3969810: done 1819 games, mean reward 15.230, eps 0.02, speed 96.74 f/s
+3971734: done 1820 games, mean reward 15.230, eps 0.02, speed 97.19 f/s
+3974275: done 1821 games, mean reward 15.190, eps 0.02, speed 97.09 f/s
+3977014: done 1822 games, mean reward 15.040, eps 0.02, speed 96.89 f/s
+3978984: done 1823 games, mean reward 15.080, eps 0.02, speed 96.74 f/s
+3980799: done 1824 games, mean reward 15.320, eps 0.02, speed 97.30 f/s
+3982902: done 1825 games, mean reward 15.320, eps 0.02, speed 96.84 f/s
+3984845: done 1826 games, mean reward 15.360, eps 0.02, speed 95.44 f/s
+3986757: done 1827 games, mean reward 15.410, eps 0.02, speed 95.44 f/s
+3988699: done 1828 games, mean reward 15.470, eps 0.02, speed 97.14 f/s
+3990653: done 1829 games, mean reward 15.560, eps 0.02, speed 96.51 f/s
+3993001: done 1830 games, mean reward 15.580, eps 0.02, speed 96.80 f/s

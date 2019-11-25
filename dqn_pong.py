@@ -1,5 +1,6 @@
 import sys
-sys.path.insert(0, "C:/Users/John/Google Drive/Danmarks Tekniske Universitet/Year II/02456 - Deep Learning/project/dqn-pong/dqn-pong/lib")
+#sys.path.insert(0, "C:/Users/John/Google Drive/Danmarks Tekniske Universitet/Year II/02456 - Deep Learning/project/dqn-pong/dqn-pong/lib")
+sys.path.insert(0, "D:/Work/GoogleDrive/Danmarks Tekniske Universitet/Year II/02456 - Deep Learning/project/dqn-pong/dqn-pong/lib")
 
 from lib import wrappers
 from lib import dqn_model
