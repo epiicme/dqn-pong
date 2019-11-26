@@ -171,6 +171,12 @@ if __name__ == "__main__":
             print("%d: done %d games, mean reward %.3f, eps %.2f, speed %.2f f/s" % (
                 frame_idx, len(total_rewards), mean_reward, epsilon,
                 speed
+            temp_str = str(frame_idx) + ": done " +
+                       str(len(total_rewards)) + " games, mean reward " +
+                       str(mean_reward) + ", eps " +
+                       str(epsilon) + ", speed " +
+                       str(speed) + " f/s"
+
             ))
             writer.add_scalar("epsilon", epsilon, frame_idx)
             writer.add_scalar("speed", speed, frame_idx)
@@ -179,6 +185,9 @@ if __name__ == "__main__":
             if best_mean_reward is None or best_mean_reward < mean_reward:
                 torch.save(net.state_dict(), args.env + "-best.dat")
                 if best_mean_reward is not None:
+                    with open("output.txt", "a") as f:
+                    f.write("Best mean reward updated %.3f -> %.3f, model saved" % (best_mean_rew$
+                    f.write(temp_str)
                     print("Best mean reward updated %.3f -> %.3f, model saved" % (best_mean_reward, mean_reward))
                 best_mean_reward = mean_reward
             if mean_reward > args.reward:
