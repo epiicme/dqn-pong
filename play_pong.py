@@ -13,7 +13,8 @@ import collections
 DEFAULT_ENV_NAME = "PongNoFrameskip-v4"
 FPS = 25
 
-DEFAULT_MODEL = "PongNoFrameskip-v4-best.dat"
+#DEFAULT_MODEL = "PongNoFrameskip-v4-best-16.69.dat"
+DEFAULT_MODEL = "PongNoFrameskip-v4-best-16.18.dat"
 DEFAULT_RECORD_PATH = "./records/"
 if __name__ == "__main__":
     # parser = argparse.ArgumentParser()
