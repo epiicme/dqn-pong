@@ -150,7 +150,7 @@ if __name__ == "__main__":
     agent = Agent(env, buffer)
     epsilon = EPSILON_START
 
-    optimizer = optim.Adam(net.parameters(), lr=LEARNING_RATE)
+    optimizer = optim.Adam(net.parameters(), lr=LEARNING_RATE )
     total_rewards = []
     frame_idx = 0
     ts_frame = 0
