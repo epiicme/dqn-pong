@@ -17,13 +17,12 @@ DEFAULT_RECORD_PATH = "./records/"
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-m", "--model", required=True, help="Model file to load")
-    parser.add_argument("-m", "--model", default=DEFAULT_MODEL, help="Model file to load")
     parser.add_argument("-e", "--env", default=DEFAULT_ENV_NAME,
                          help="Environment name to use, default=" + DEFAULT_ENV_NAME)
     parser.add_argument("-r", "--record", default = DEFAULT_RECORD_PATH, help="Directory to store video recording")
     args = parser.parse_args()
 
-    env = wrappers.make_env(arg.env)
+    env = wrappers.make_env(args.env)
     env = gym.wrappers.Monitor(env, args.record)
 
     net = dqn_model.DQN(env.observation_space.shape, env.action_space.n)
