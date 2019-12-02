@@ -10,27 +10,24 @@ import numpy as np
 
 import collections
 
-DEFAULT_ENV_NAME = "PongNoFrameskip-v4"
 FPS = 25
-
-DEFAULT_MODEL = "PongNoFrameskip-v4-best.dat"
+DEFAULT_ENV_NAME = "PongNoFrameskip-v4"
 DEFAULT_RECORD_PATH = "./records/"
+
 if __name__ == "__main__":
-    # parser = argparse.ArgumentParser()
-    # #parser.add_argument("-m", "—model", required=True, help="Model file to load")
-    # parser.add_argument("-m", "-—model", default=DEFAULT_MODEL, help="Model file to load")
-    # parser.add_argument("-e", "-—env", default=DEFAULT_ENV_NAME,
-    #                     help="Environment name to use, default=" + DEFAULT_ENV_NAME)
-    # parser.add_argument("-r", "-—record", default = "./records/", help="Directory to store video recording")
-    # args = parser.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-m", "--model", required=True, help="Model file to load")
+    parser.add_argument("-m", "--model", default=DEFAULT_MODEL, help="Model file to load")
+    parser.add_argument("-e", "--env", default=DEFAULT_ENV_NAME,
+                         help="Environment name to use, default=" + DEFAULT_ENV_NAME)
+    parser.add_argument("-r", "--record", default = DEFAULT_RECORD_PATH, help="Directory to store video recording")
+    args = parser.parse_args()
 
-    #env = wrappers.make_env(args.env)
-    env = wrappers.make_env(DEFAULT_ENV_NAME)
-
-    env = gym.wrappers.Monitor(env, DEFAULT_RECORD_PATH)
+    env = wrappers.make_env(arg.env)
+    env = gym.wrappers.Monitor(env, args.record)
 
     net = dqn_model.DQN(env.observation_space.shape, env.action_space.n)
-    net.load_state_dict(torch.load(DEFAULT_MODEL))
+    net.load_state_dict(torch.load(args.model))
 
     state = env.reset()
     total_reward = 0.0

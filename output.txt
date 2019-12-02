@@ -1,2 +1,0 @@
-Best mean reward updated -20.000 -> -19.857, model saved 
-7039: done 7 games, mean reward -19.857142857142858, eps 0.92961, speed 555.6871175955262 f/s 
